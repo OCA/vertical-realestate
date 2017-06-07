@@ -7,7 +7,6 @@
 Modules for Real State and related businesses.
 
 [//]: # (addons)
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
 [//]: # (end addons)
 
 ----
