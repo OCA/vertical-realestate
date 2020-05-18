@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2020 ACSONE SA/NV
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record model="ir.ui.view" id="real_estate_form_view">
+        <field name="name">real.estate.form (in realestate_estate_image)
+        </field>
+        <field name="model">real.estate</field>
+        <field name="inherit_id" ref="realestate_estate.real_estate_form_view" />
+        <field name="arch" type="xml">
+            <field name="image_256" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </field>
+            <field name="image_256" position="after">
+                <field
+                    name="image_medium_url"
+                    widget="image_url"
+                    nolabel="1"
+                    class="oe_avatar"
+                />
+            </field>
+            <xpath expr="//notebook/page[@name='page_contacts']" position="after">
+                <page name="image" string="Image">
+                    <field
+                        name="image_ids"
+                        mode="kanban"
+                        widget="image_handle"
+                        options="{'image_field': 'image_id', 'handle_field': 'sequence'}"
+                    />
+                </page>
+            </xpath>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="real_estate_kanban_view">
+        <field name="name">real.estate.kanban (in realestate_estate_image)</field>
+        <field name="model">real.estate</field>
+        <field name="inherit_id" ref="realestate_estate.real_estate_view_kanban" />
+        <field name="arch" type="xml">
+            <xpath
+                expr="//t[@t-name='kanban-box']//field[@name='image_256']"
+                position="attributes"
+            >
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath
+                expr="//t[@t-name='kanban-box']//field[@name='image_256']"
+                position="after"
+            >
+                <div class="o_kanban_image_fill_left o_kanban_image_full">
+                    <field
+                        name="image_medium_url"
+                        widget="image_url"
+                        options="{'size':(128,128)}"
+                    />
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>
