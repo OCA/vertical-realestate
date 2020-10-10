@@ -2,11 +2,9 @@
 <!-- Copyright 2020 ACSONE SA/NV
      License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
 <odoo noupdate="1">
-
     <!-- TODO
     <record model="image.tag" id="image_tag_demo_1">
        <field name="name">...</field>
     </record>
     -->
-
 </odoo>

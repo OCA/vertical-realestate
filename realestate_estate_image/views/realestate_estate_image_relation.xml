@@ -31,7 +31,8 @@
                                 t-if="! read_only_mode"
                                 type="delete"
                                 style="position: absolute; right: 0; padding: 4px; diplay: inline-block"
-                            >X
+                            >
+                                X
                             </a>
                             <a type="open">
                                 <img

@@ -101,7 +101,3 @@ repos:
     rev: 2.5.2
     hooks:
       - id: setuptools-odoo-make-default
-  - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: v7.2.0 # Use the sha / tag you want to point at
-    hooks:
-      - id: eslint

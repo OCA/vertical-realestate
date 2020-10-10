@@ -19,7 +19,7 @@
             <form string="RealEstate Entity">
                 <header>
 
-        </header>
+                </header>
                 <sheet>
                     <div class="oe_button_box" name="buttons" />
                     <field name="active" invisible="1" />

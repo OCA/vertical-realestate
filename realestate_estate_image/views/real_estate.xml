@@ -3,8 +3,7 @@
      License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
 <odoo>
     <record model="ir.ui.view" id="real_estate_form_view">
-        <field name="name">real.estate.form (in realestate_estate_image)
-        </field>
+        <field name="name">real.estate.form (in realestate_estate_image)</field>
         <field name="model">real.estate</field>
         <field name="inherit_id" ref="realestate_estate.real_estate_form_view" />
         <field name="arch" type="xml">
