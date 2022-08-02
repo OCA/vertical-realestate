@@ -1,5 +1,5 @@
 # Copyright 2020 ACSONE SA/NV
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 from odoo import api, models
 
@@ -12,7 +12,7 @@ class ResPartner(models.Model):
         """ It overrides create to bind appropriate realestate entity. """
         if all(
             (
-                vals.get("type", "").startswith("real."),
+                vals.get("type", "").startswith("real.estate"),
                 not self.env.context.get("real_entity_no_create"),
             )
         ):
