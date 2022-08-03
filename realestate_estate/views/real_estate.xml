@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- Copyright 2020 ACSONE SA/NV
-     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
 <odoo>
     <record model="ir.ui.view" id="real_estate_form_view">
         <field name="name">real.estate.form (in realestate_estate)</field>
@@ -11,6 +11,9 @@
         />
         <field name="mode">primary</field>
         <field name="arch" type="xml">
+            <field name="name" position="attributes">
+                <attribute name="required">1</attribute>
+            </field>
             <group name="general_first" position="inside">
                 <field name="type_id" />
                 <field name="ref" />
