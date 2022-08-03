@@ -25,6 +25,7 @@ class RealEstateAbstractEntity(models.AbstractModel):
     @api.returns("self", lambda value: value.id)
     def create(self, vals):
         vals = self._create_vals(vals)
+        self_context = self
         if "type" in vals:
             self_context = self.with_context(default_type=vals.get("type"))
         return super(RealEstateAbstractEntity, self_context).create(vals)
