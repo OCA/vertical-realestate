@@ -5,7 +5,7 @@
     "name": "Realestate",
     "summary": """
         Manages realestate""",
-    "version": "13.0.1.0.1",
+    "version": "13.0.1.0.2",
     "license": "AGPL-3",
     "development_status": "Alpha",
     "author": "ACSONE SA/NV, Odoo Community Association (OCA)",
