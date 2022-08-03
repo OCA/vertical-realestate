@@ -1,5 +1,5 @@
 # Copyright 2020 ACSONE SA/NV
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 {
     "name": "Realestate Estate",
@@ -18,6 +18,7 @@
         "views/real_estate.xml",
         "data/ir_sequence.xml",
         "data/real_estate_type.xml",
+        "demo/real_estate.xml",
     ],
     "demo": ["demo/real_estate.xml"],
 }

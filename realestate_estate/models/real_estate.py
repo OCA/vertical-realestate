@@ -1,5 +1,5 @@
 # Copyright 2020 ACSONE SA/NV
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 from odoo import fields, models
 
@@ -9,8 +9,6 @@ class RealEstate(models.Model):
     _name = "real.estate"
     _inherit = "realestate.abstract.entity"
     _description = "Real Estate"
-
-    name = fields.Char(required=True,)
 
     type_id = fields.Many2one(
         comodel_name="real.estate.type", required=True, ondelete="restrict", index=True,
