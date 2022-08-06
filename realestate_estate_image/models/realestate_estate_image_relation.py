@@ -21,5 +21,3 @@ class RealestateEstateImageRelation(models.Model):
     image_name = fields.Char(related="image_id.name")
     # for kanban view
     image_url = fields.Char(related="image_id.image_medium_url")
-
-    tag_id = fields.Many2one("image.tag", domain=[("apply_on", "=", "real.estate")])

@@ -8,10 +8,6 @@
             <form string="Association">
                 <group>
                     <field name="image_id" />
-                    <field
-                        name="tag_id"
-                        context="{'active_model': context.get('active_model')}"
-                    />
                 </group>
                 <field name="image_url" widget="image_url" nolabel="1" colspan="2" />
             </form>

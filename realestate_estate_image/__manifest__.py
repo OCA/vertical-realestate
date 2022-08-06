@@ -12,7 +12,6 @@
     "website": "https://github.com/OCA/vertical-realestate",
     "depends": ["realestate_estate", "storage_image", "storage_image_main"],
     "data": [
-        "security/image_tag.xml",
         "security/realestate_estate_image_relation.xml",
         "views/realestate_estate_image_relation.xml",
         "views/real_estate.xml",
