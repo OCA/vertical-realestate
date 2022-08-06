@@ -1,1 +1,4 @@
 odoo-test-helper
+
+# DONT MERGE
+odoo13-addon-storage-image-main @ git+https://github.com/OCA/storage.git@refs/pull/209/head#subdirectory=setup/storage_image_main
