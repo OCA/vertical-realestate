@@ -6,7 +6,9 @@ from odoo import fields, models
 
 class RealEstate(models.Model):
 
-    _inherit = "real.estate"
+    _name = "real.estate"
+    _inherit = ["real.estate", "storage.main.image.mixin"]
+    _field_image_ids = "image_ids"
 
     # small and medium image are here to replace
     # native image field on form and kanban

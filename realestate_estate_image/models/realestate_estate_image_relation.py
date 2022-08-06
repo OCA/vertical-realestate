@@ -7,6 +7,7 @@ from odoo import fields, models
 class RealestateEstateImageRelation(models.Model):
 
     _name = "realestate.estate.image.relation"
+    _inherit = "image.relation.abstract"
     _description = "Realestate Estate Image Relation"
 
     sequence = fields.Integer()

@@ -23,6 +23,7 @@
             <kanban>
                 <field name="image_name" />
                 <field name="image_url" />
+                <field name="sequence" widget="handle" />
                 <field name="image_id" invisible="1" />
                 <templates>
                     <t t-name="kanban-box">

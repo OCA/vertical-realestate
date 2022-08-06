@@ -10,13 +10,11 @@
     "development_status": "Alpha",
     "author": "ACSONE SA/NV,Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/vertical-realestate",
-    "depends": ["storage_image"],
+    "depends": ["realestate_estate", "storage_image", "storage_image_main"],
     "data": [
         "security/image_tag.xml",
         "security/realestate_estate_image_relation.xml",
         "views/realestate_estate_image_relation.xml",
         "views/real_estate.xml",
-        "views/real_estate_image.xml",
     ],
-    "demo": ["demo/image_tag.xml", "demo/realestate_estate_image_relation.xml"],
 }
