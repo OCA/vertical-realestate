@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+
+    <record id="flats_action_website" model="ir.actions.act_window">
+        <field name="name">Flats</field>
+        <field name="res_model">product.template</field>
+        <field name="view_mode">kanban,tree,form,activity</field>
+        <field
+            name="view_id"
+            ref="website_sale.product_template_view_tree_website_sale"
+        />
+        <field
+            name="search_view_id"
+            ref="website_sale.product_template_search_view_website"
+        />
+        <field name="context">{'search_default_published': 0}</field>
+        <field name="domain">[('type','=','real_estate')]</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a new flat
+            </p>
+        </field>
+    </record>
+
+
+    <menuitem
+        id="main_real_estate_menu"
+        name="Real Estate"
+        web_icon="real_estate,static/src/img/icon.png"
+    />
+    <menuitem
+        id="flat_menu"
+        name="Flats"
+        parent="main_real_estate_menu"
+        action="flats_action_website"
+        sequence="1"
+    />
+    <menuitem
+        id="configuration_menu"
+        name="Configuration"
+        parent="main_real_estate_menu"
+        sequence="4"
+    />
+    <menuitem
+        id="flat_type_menu"
+        name="Flat Types"
+        parent="configuration_menu"
+        action="website_sale.product_public_category_action"
+    />
+    <menuitem
+        id="flat_tag_menu"
+        name="Flat Tags"
+        parent="configuration_menu"
+        action="product_template_tags.product_template_tag_act_window"
+    />
+</odoo>

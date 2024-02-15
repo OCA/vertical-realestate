@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <record model="real.estate.type" id="real_estate_type_house">
+        <field name="name">House</field>
+    </record>
+    <record model="real.estate.type" id="real_estate_type_flat">
+        <field name="name">Flat</field>
+    </record>
+    <record model="real.estate.type" id="real_estate_type_office">
+        <field name="name">Office</field>
+    </record>
+    <record model="real.estate.type" id="real_estate_type_land">
+        <field name="name">Land</field>
+    </record>
+</odoo>

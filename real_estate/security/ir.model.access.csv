@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_res_country_zone_group_all,res_country_zone,model_res_country_zone,,1,1,1,0
+access_real_estate_type,real_estate_type,model_real_estate_type,,1,1,1,1
