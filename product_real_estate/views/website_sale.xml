@@ -145,8 +145,9 @@
                                         </t>
                                     </div>
                                     <div class="col-md-3">
+
                                         <img
-                                            src="/real_estate/static/src/img/lift.png"
+                                            src="/product_real_estate/static/src/img/lift.png"
                                             style="width: 32px;height: 32px;"
                                         />
                                         <br />
@@ -161,8 +162,9 @@
                                         </t>
                                     </div>
                                     <div class="col-md-3">
+
                                         <img
-                                            src="/real_estate/static/src/img/toilet.png"
+                                            src="/product_real_estate/static/src/img/toilet.png"
                                             style="width: 32px;height: 32px;"
                                         />
                                         <br />
@@ -187,8 +189,9 @@
                                 <br />
                                 <div class="row">
                                     <div class="col-md-3">
+
                                         <img
-                                            src="/real_estate/static/src/img/garage.png"
+                                            src="/product_real_estate/static/src/img/garage.png"
                                             style="width: 32px;height: 32px;"
                                         />
                                         <br />
@@ -203,8 +206,9 @@
                                         </t>
                                     </div>
                                     <div class="col-md-3">
+
                                         <img
-                                            src="/real_estate/static/src/img/swimming.png"
+                                            src="/product_real_estate/static/src/img/swimming.png"
                                             style="width: 32px;height: 32px;"
                                         />
                                         <br />
@@ -219,8 +223,9 @@
                                         </t>
                                     </div>
                                     <div class="col-md-3">
+
                                         <img
-                                            src="/real_estate/static/src/img/ruler.png"
+                                            src="/product_real_estate/static/src/img/ruler.png"
                                             style="width: 32px;height: 32px;"
                                         />
                                         <br />
@@ -232,8 +237,9 @@
                                         </span>
                                     </div>
                                     <div class="col-md-3">
+
                                         <img
-                                            src="/real_estate/static/src/img/shop.png"
+                                            src="/product_real_estate/static/src/img/shop.png"
                                             style="width: 32px;height: 32px;"
                                         />
                                         <br />
@@ -251,8 +257,9 @@
                                 <br />
                                 <div class="row">
                                     <div class="col-md-3">
+
                                         <img
-                                            src="/real_estate/static/src/img/clock.png"
+                                            src="/product_real_estate/static/src/img/clock.png"
                                             style="width: 32px;height: 32px;"
                                         />
                                         <br />
@@ -264,8 +271,9 @@
                                         </span>
                                     </div>
                                     <div class="col-md-3">
+
                                         <img
-                                            src="/real_estate/static/src/img/floor.png"
+                                            src="/product_real_estate/static/src/img/floor.png"
                                             style="width: 32px;height: 32px;"
                                         />
                                         <br />
@@ -287,8 +295,9 @@
                                 <br />
                                 <div class="row">
                                     <div class="col-md-3">
+
                                         <img
-                                            src="/real_estate/static/src/img/energy.png"
+                                            src="/product_real_estate/static/src/img/energy.png"
                                             style="width: 32px;height: 32px;"
                                         />
                                         <br />
@@ -300,8 +309,9 @@
                                         </span>
                                     </div>
                                     <div class="col-md-3">
+
                                         <img
-                                            src="/real_estate/static/src/img/dust.png"
+                                            src="/product_real_estate/static/src/img/dust.png"
                                             style="width: 32px;height: 32px;"
                                         />
                                         <br />
@@ -314,8 +324,9 @@
                                     </div>
                                     <div class="col-md-3">
                                         <t t-if="product.stove">
+
                                             <img
-                                                src="/real_estate/static/src/img/kitchen.png"
+                                                src="/product_real_estate/static/src/img/kitchen.png"
                                                 style="width: 32px;height: 32px;"
                                             />
                                             <br />
@@ -326,8 +337,9 @@
                                     </div>
                                     <div class="col-md-3">
                                         <t t-if="product.thermo">
+
                                             <img
-                                                src="/real_estate/static/src/img/temp.png"
+                                                src="/product_real_estate/static/src/img/temp.png"
                                                 style="width: 32px;height: 32px;"
                                             />
                                             <br />

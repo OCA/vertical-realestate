@@ -59,16 +59,17 @@
 
         <menuitem
         id="menu_country_zone_partner"
-        action="real_estate.action_country_zone"
+        action="product_real_estate.action_country_zone"
         parent="contacts.menu_localisation"
         sequence="10"
         name="Zones"
     />
 
+
         <menuitem
         id="menu_country_zone_real_estate"
-        action="real_estate.action_country_zone"
-        parent="real_estate.configuration_menu"
+        action="product_real_estate.action_country_zone"
+        parent="product_real_estate.configuration_menu"
         sequence="10"
         name="Zones"
     />

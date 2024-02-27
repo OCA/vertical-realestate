@@ -23,11 +23,10 @@
         </field>
     </record>
 
-
     <menuitem
         id="main_real_estate_menu"
         name="Real Estate"
-        web_icon="real_estate,static/src/img/icon.png"
+        web_icon="product_real_estate,static/src/img/icon.png"
     />
     <menuitem
         id="flat_menu"

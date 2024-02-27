@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* real_estate
+# 	* product_real_estate
 #
 msgid ""
 msgstr ""
@@ -15,45 +15,45 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: real_estate
+#. module: product_real_estate
 #. odoo-python
-#: code:addons/real_estate/models/product_template.py:0
-#: model:ir.model.fields.selection,name:real_estate.selection__product_template__antiquity__50+
+#: code:addons/product_real_estate/models/product_template.py:0
+#: model:ir.model.fields.selection,name:product_real_estate.selection__product_template__antiquity__50+
 #, python-format
 msgid "+ 50 years"
 msgstr "+ 50 años"
 
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+#. module: product_real_estate
+#: model_terms:ir.ui.view,arch_db:product_real_estate.product_real_estate
 msgid "/ month"
 msgstr "/ mes"
 
-#. module: real_estate
+#. module: product_real_estate
 #. odoo-python
-#: code:addons/real_estate/models/product_template.py:0
-#: model:ir.model.fields.selection,name:real_estate.selection__product_template__antiquity__110
+#: code:addons/product_real_estate/models/product_template.py:0
+#: model:ir.model.fields.selection,name:product_real_estate.selection__product_template__antiquity__110
 #, python-format
 msgid "1 - 10 years"
 msgstr "1 - 10 años"
 
-#. module: real_estate
+#. module: product_real_estate
 #. odoo-python
-#: code:addons/real_estate/models/product_template.py:0
-#: model:ir.model.fields.selection,name:real_estate.selection__product_template__antiquity__1030
+#: code:addons/product_real_estate/models/product_template.py:0
+#: model:ir.model.fields.selection,name:product_real_estate.selection__product_template__antiquity__1030
 #, python-format
 msgid "10 - 30 years "
 msgstr "10 - 30 años "
 
-#. module: real_estate
+#. module: product_real_estate
 #. odoo-python
-#: code:addons/real_estate/models/product_template.py:0
-#: model:ir.model.fields.selection,name:real_estate.selection__product_template__antiquity__3050
+#: code:addons/product_real_estate/models/product_template.py:0
+#: model:ir.model.fields.selection,name:product_real_estate.selection__product_template__antiquity__3050
 #, python-format
 msgid "30 - 50 years"
 msgstr "30 - 50 años"
 
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+#. module: product_real_estate
+#: model_terms:ir.ui.view,arch_db:product_real_estate.product_real_estate
 msgid ""
 "<br/>\n"
 "                                            <span class=\"campo_p\">Stove:</span>\n"
@@ -63,8 +63,8 @@ msgstr ""
 "                                            <span class=\"campo_p\">Cocina:</span>\n"
 "                                            <br/>"
 
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+#. module: product_real_estate
+#: model_terms:ir.ui.view,arch_db:product_real_estate.product_real_estate
 msgid ""
 "<br/>\n"
 "                                            <span class=\"campo_p\">Thermo:</span>\n"
@@ -74,8 +74,8 @@ msgstr ""
 "                                            <span class=\"campo_p\">Termo:</span>\n"
 "                                            <br/>"
 
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.portal_my_real_estate
+#. module: product_real_estate
+#: model_terms:ir.ui.view,arch_db:product_real_estate.portal_my_real_estate
 msgid ""
 "<br/>\n"
 "                                            <span>Price:</span>"
@@ -83,8 +83,8 @@ msgstr ""
 "<br/>\n"
 "                                            <span>Precio:</span>"
 
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.portal_my_real_estate
+#. module: product_real_estate
+#: model_terms:ir.ui.view,arch_db:product_real_estate.portal_my_real_estate
 msgid ""
 "<br/>\n"
 "                                            <span>State:</span>"
@@ -92,8 +92,8 @@ msgstr ""
 "<br/>\n"
 "                                            <span>Estado:</span>"
 
-#. module: real_estate
-#: model_terms:ir.ui.view,arch_db:real_estate.portal_my_real_estate
+#. module: product_real_estate
+#: model_terms:ir.ui.view,arch_db:product_real_estate.portal_my_real_estate
 msgid ""
 "<br/>\n"
 "                                            <span>Zone:</span>"

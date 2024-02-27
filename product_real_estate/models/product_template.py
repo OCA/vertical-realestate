@@ -90,10 +90,6 @@ class ProductTemplate(models.Model):
 
     @api.constrains("list_price")
     def _constrains_valid_price(self):
-        if self.list_price < 0:
-            return {
-                "warning": {
-                    "title": _("Warning"),
-                    "message": _("The price can not be negative"),
-                },
-            }
+        for item in self:
+            if item.list_price < 0:
+                raise models.ValidationError(_("The price can not be negative"))
