@@ -13,7 +13,6 @@
         "website_sale",
         "product_template_tags",
         "realestate_estate",
-        "realestate",
     ],
     "license": "AGPL-3",
     "data": [
