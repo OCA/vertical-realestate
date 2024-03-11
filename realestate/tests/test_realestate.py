@@ -14,7 +14,8 @@ class TestRealEstate(SavepointCase):
         cls.loader.backup_registry()
 
         # The fake class is imported here !! After the backup_registry
-        from .test_model import RealEstateTest, ResPartner
+        from ..models.res_partner import ResPartner
+        from .test_model import RealEstateTest
 
         cls.loader.update_registry((ResPartner,))
         cls.loader.update_registry((RealEstateTest,))
