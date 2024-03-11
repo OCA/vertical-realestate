@@ -56,7 +56,7 @@
     <menuitem
         id="owners_menu_list"
         name="Owners"
-        parent="owners_menu"
+        parent="realestate.menu_realestate"
         action="owners_list_action"
     />
 
@@ -64,7 +64,7 @@
     <menuitem
         id="tenants_menu"
         name="Tenants"
-        parent="main_real_estate_menu"
+        parent="realestate.menu_realestate"
         sequence="3"
     />
 

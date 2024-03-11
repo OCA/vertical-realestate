@@ -7,6 +7,7 @@ class TestRealEstateType(TransactionCase):
         self.real_estate_type_id = self.env["real.estate.type"].create(
             {
                 "name": "Flat",
+                "code": "Flat",
             }
         )
 

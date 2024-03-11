@@ -1,0 +1,739 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* realestate_estate
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-07 09:56+0000\n"
+"PO-Revision-Date: 2020-06-07 09:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: realestate_estate
+#: model:real.estate,description:realestate_estate.real_estate_flat_1
+msgid ""
+"\n"
+"            Number of sleeping rooms: 3\n"
+"            Number of bathrooms: 1\n"
+"            Open Kitchen: 1\n"
+"       "
+msgstr ""
+
+#. module: realestate_estate
+#: model:real.estate,short_description:realestate_estate.real_estate_flat_1
+msgid "A beautiful flat located in a calm suburb."
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__active
+msgid "Active"
+msgstr "Actif"
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__active_lang_count
+msgid "Active Lang Count"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__additional_info
+msgid "Additional info"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__type
+#: model:ir.model.fields,field_description:realestate_estate.field_res_partner__type
+#: model:ir.model.fields,field_description:realestate_estate.field_res_users__type
+msgid "Address Type"
+msgstr "Type d'adresse"
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__lang
+msgid ""
+"All the emails and documents sent to this contact will be translated in this "
+"language."
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__bank_ids
+msgid "Banks"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__is_blacklisted
+msgid "Blacklist"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__message_bounce
+msgid "Bounce"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__channel_ids
+msgid "Channels"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__employee
+msgid "Check this box if this contact is an Employee."
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__city
+msgid "City"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate_type__code
+msgid "Code"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__color
+msgid "Color Index"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__commercial_partner_id
+msgid "Commercial Entity"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__company_id
+msgid "Company"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__company_name
+msgid "Company Name"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__commercial_company_name
+msgid "Company Name Entity"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__company_type
+msgid "Company Type"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__partner_gid
+msgid "Company database ID"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__contact_address
+msgid "Complete Address"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model,name:realestate_estate.model_res_partner
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__child_ids
+msgid "Contact"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__country_id
+msgid "Country"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__create_uid
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate_type__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__create_date
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate_type__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__credit_limit
+msgid "Credit Limit"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__date
+msgid "Date"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__description
+msgid "Description"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__display_name
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate_type__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current "
+"partner is a customer without access or with a limited access created for "
+"sharing data."
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__email
+msgid "Email"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__employee
+msgid "Employee"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields.selection,name:realestate_estate.selection__res_partner__type__real_estate
+msgid "Estate"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.ui.menu,name:realestate_estate.real_estate_menu
+#: model_terms:ir.ui.view,arch_db:realestate_estate.real_estate_view_kanban
+msgid "Estates"
+msgstr "Biens Immobiliers"
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__phone_sanitized
+msgid ""
+"Field used to store sanitized phone number. Helps speeding up searches and "
+"comparisons."
+msgstr ""
+
+#. module: realestate_estate
+#: model:real.estate.type,name:realestate_estate.real_estate_type_flat
+msgid "Flat"
+msgstr "Appartement"
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__message_channel_ids
+msgid "Followers (Channels)"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__email_formatted
+msgid "Formatted Email"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__partner_latitude
+msgid "Geo Latitude"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__partner_longitude
+msgid "Geo Longitude"
+msgstr ""
+
+#. module: realestate_estate
+#: model_terms:ir.ui.view,arch_db:realestate_estate.real_estate_search_view
+msgid "Group By..."
+msgstr ""
+
+#. module: realestate_estate
+#: model:real.estate.type,name:realestate_estate.real_estate_type_house
+msgid "House"
+msgstr "Maison"
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__id
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate_type__id
+msgid "ID"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__im_status
+msgid "IM Status"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__message_needaction
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__message_has_error
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__is_blacklisted
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__phone_blacklisted
+msgid ""
+"If the email address is on the blacklist, the contact won't receive mass "
+"mailing anymore, from any list"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__image_1920
+msgid "Image"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__image_1024
+msgid "Image 1024"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__image_128
+msgid "Image 128"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__image_256
+msgid "Image 256"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__image_512
+msgid "Image 512"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__industry_id
+msgid "Industry"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__type
+#: model:ir.model.fields,help:realestate_estate.field_res_partner__type
+#: model:ir.model.fields,help:realestate_estate.field_res_users__type
+msgid ""
+"Invoice & Delivery addresses are used in sales orders. Private addresses are "
+"only visible by authorized users."
+msgstr ""
+"Les adresses de facturation et de livraison sont utilisées dans les "
+"commandes clients. Les adresses privées ne sont visibles que par les "
+"utilisateurs autorisés."
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__is_company
+msgid "Is a Company"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__function
+msgid "Job Position"
+msgstr ""
+
+#. module: realestate_estate
+#: model:real.estate.type,name:realestate_estate.real_estate_type_land
+msgid "Land"
+msgstr "Terrain"
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__lang
+msgid "Language"
+msgstr "Langue"
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate____last_update
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate_type____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__write_uid
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate_type__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__write_date
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate_type__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__mobile
+msgid "Mobile"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__name
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate_type__name
+msgid "Name"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__email_normalized
+msgid "Normalized Email"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__comment
+msgid "Notes"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: realestate_estate
+#: model:real.estate.type,name:realestate_estate.real_estate_type_office
+msgid "Office"
+msgstr "Bureau"
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__parent_name
+msgid "Parent name"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__same_vat_partner_id
+msgid "Partner with same Tax ID"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__phone
+msgid "Phone"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__phone_blacklisted
+msgid "Phone Blacklisted"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.actions.act_window,name:realestate_estate.real_estate_act_window
+#: model:ir.model,name:realestate_estate.model_real_estate
+msgid "Real Estate"
+msgstr "Bien Immobilier"
+
+#. module: realestate_estate
+#: model:ir.actions.act_window,name:realestate_estate.real_estate_type_act_window
+#: model:ir.model,name:realestate_estate.model_real_estate_type
+msgid "Real Estate Type"
+msgstr "Type de Bien"
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__ref
+msgid "Reference"
+msgstr "Référence"
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__parent_id
+msgid "Related Company"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__partner_id
+msgid "Related Partner"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__user_id
+msgid "Salesperson"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__phone_sanitized
+msgid "Sanitized Number"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__self
+msgid "Self"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__partner_share
+msgid "Share Partner"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__short_description
+msgid "Short Description"
+msgstr "Description Courte"
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__signup_expiration
+msgid "Signup Expiration"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__signup_token
+msgid "Signup Token"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__signup_type
+msgid "Signup Token Type"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__signup_valid
+msgid "Signup Token is Valid"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__signup_url
+msgid "Signup URL"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__state_id
+msgid "State"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__street
+msgid "Street"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__street2
+msgid "Street2"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__category_id
+msgid "Tags"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__vat
+msgid "Tax ID"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__vat
+msgid ""
+"The Tax Identification Number. Complete it if the contact is subjected to "
+"government taxes. Used in some legal statements."
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.constraint,message:realestate_estate.constraint_real_estate_type_code_uniq
+msgid "The code has to be unique!"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__user_id
+msgid "The internal user in charge of this contact."
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__email_normalized
+msgid ""
+"This field is used to search on email address as the primary email field can "
+"contain more than strictly an email address."
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__tz
+msgid "Timezone"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__tz_offset
+msgid "Timezone offset"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__title
+msgid "Title"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__type_id
+#: model_terms:ir.ui.view,arch_db:realestate_estate.real_estate_search_view
+msgid "Type"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.ui.menu,name:realestate_estate.real_estate_type_menu
+msgid "Types"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__user_ids
+msgid "Users"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__website
+msgid "Website Link"
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,help:realestate_estate.field_real_estate__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are "
+"computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your "
+"web client."
+msgstr ""
+
+#. module: realestate_estate
+#: model:ir.model.fields,field_description:realestate_estate.field_real_estate__zip
+msgid "Zip"
+msgstr ""

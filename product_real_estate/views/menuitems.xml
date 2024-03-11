@@ -31,26 +31,20 @@
     <menuitem
         id="flat_menu"
         name="Flats"
-        parent="main_real_estate_menu"
+        parent="realestate.menu_realestate"
         action="flats_action_website"
         sequence="1"
     />
     <menuitem
-        id="configuration_menu"
-        name="Configuration"
-        parent="main_real_estate_menu"
-        sequence="4"
-    />
-    <menuitem
         id="flat_type_menu"
         name="Flat Types"
-        parent="configuration_menu"
+        parent="realestate.real_estate_configuration_menu"
         action="website_sale.product_public_category_action"
     />
     <menuitem
         id="flat_tag_menu"
         name="Flat Tags"
-        parent="configuration_menu"
+        parent="realestate.real_estate_configuration_menu"
         action="product_template_tags.product_template_tag_act_window"
     />
 </odoo>

@@ -1,63 +1,64 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-        <record id="view_country_zone_tree" model="ir.ui.view">
-            <field name="name">res.country.zone.tree</field>
-            <field name="model">res.country.zone</field>
-            <field name="arch" type="xml">
-                <tree editable="bottom">
-                    <field name="name" />
-                    <field name="state_id" options="{'no_create': True}" />
-                </tree>
-            </field>
-        </record>
+    <record id="view_country_zone_tree" model="ir.ui.view">
+        <field name="name">res.country.zone.tree</field>
+        <field name="model">res.country.zone</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="name" />
+                <field name="state_id" options="{'no_create': True}" />
+            </tree>
+        </field>
+    </record>
 
-        <record id="view_country_zone_form" model="ir.ui.view">
-            <field name="name">res.country.zone.form</field>
-            <field name="model">res.country.zone</field>
-            <field name="arch" type="xml">
-                <form string="Zone">
-                    <sheet>
-                        <group>
-                            <field name="name" />
-                            <field
+    <record id="view_country_zone_form" model="ir.ui.view">
+        <field name="name">res.country.zone.form</field>
+        <field name="model">res.country.zone</field>
+        <field name="arch" type="xml">
+            <form string="Zone">
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field
                             name="state_id"
                             options='{"no_open": True, "no_create": True}'
                         />
-                        </group>
-                    </sheet>
-                </form>
-            </field>
-        </record>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
 
-        <record id="view_country_zone_search" model="ir.ui.view">
-            <field name="name">res.country.zone.search</field>
-            <field name="model">res.country.zone</field>
-            <field name="arch" type="xml">
-                <search string="Country">
-                    <field name="name" />
-                    <field name="state_id" />
-                    <group string="Group By">
-                        <filter
+    <record id="view_country_zone_search" model="ir.ui.view">
+        <field name="name">res.country.zone.search</field>
+        <field name="model">res.country.zone</field>
+        <field name="arch" type="xml">
+            <search string="Country">
+                <field name="name" />
+                <field name="state_id" />
+                <group string="Group By">
+                    <filter
                         name="groupby_country"
                         string="Country"
                         context="{'group_by': 'state_id'}"
                     />
-                    </group>
-                </search>
-            </field>
-        </record>
+                </group>
+            </search>
+        </field>
+    </record>
 
-        <record id="action_country_zone" model="ir.actions.act_window">
-            <field name="name">Zones</field>
-            <field name="type">ir.actions.act_window</field>
-            <field name="res_model">res.country.zone</field>
-            <field name="view_id" ref="view_country_zone_tree" />
-            <field
+    <record id="action_country_zone" model="ir.actions.act_window">
+        <field name="name">Zones</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.country.zone</field>
+        <field name="view_id" ref="view_country_zone_tree" />
+        <field
             name="help"
-        >You can manage the different zones you are working on from here. Each zone is attached to one state.</field>
-        </record>
+        >You can manage the different zones you are working on from here. Each zone is attached to one state.
+        </field>
+    </record>
 
-        <menuitem
+    <menuitem
         id="menu_country_zone_partner"
         action="product_real_estate.action_country_zone"
         parent="contacts.menu_localisation"
@@ -66,10 +67,10 @@
     />
 
 
-        <menuitem
+    <menuitem
         id="menu_country_zone_real_estate"
         action="product_real_estate.action_country_zone"
-        parent="product_real_estate.configuration_menu"
+        parent="realestate.real_estate_configuration_menu"
         sequence="10"
         name="Zones"
     />

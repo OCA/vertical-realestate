@@ -12,10 +12,11 @@
         "contacts",
         "website_sale",
         "product_template_tags",
+        "realestate_estate",
+        "realestate",
     ],
     "license": "AGPL-3",
     "data": [
-        "data/real_estate_type.xml",
         "security/ir.model.access.csv",
         "views/product_template_views.xml",
         "views/website_sale.xml",
