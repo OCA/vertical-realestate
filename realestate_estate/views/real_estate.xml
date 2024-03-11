@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2020 ACSONE SA/NV
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record model="ir.ui.view" id="real_estate_form_view">
+        <field name="name">real.estate.form (in realestate_estate)</field>
+        <field name="model">real.estate</field>
+        <field
+            name="inherit_id"
+            ref="realestate.realestate_abstract_entity_view_form"
+        />
+        <field name="mode">primary</field>
+        <field name="arch" type="xml">
+            <field name="name" position="attributes">
+                <attribute name="required">1</attribute>
+            </field>
+            <group name="general_first" position="inside">
+                <field name="type_id" />
+                <field name="ref" />
+            </group>
+            <group name="general_second" position="inside">
+                <field name="short_description" />
+                <field name="description" />
+            </group>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="real_estate_search_view">
+        <field name="name">real.estate.search (in realestate_estate)</field>
+        <field name="model">real.estate</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" />
+                <group expand="0" string="Group By...">
+                    <filter
+                        string="Type"
+                        name="type"
+                        domain="[]"
+                        context="{'group_by':'type_id'}"
+                    />
+                </group>
+            </search>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="real_estate_tree_view">
+        <field name="name">real.estate.tree (in realestate_estate)</field>
+        <field name="model">real.estate</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="type_id" />
+            </tree>
+        </field>
+    </record>
+    <record id="real_estate_view_kanban" model="ir.ui.view">
+        <field name="name">real.estate.kanban</field>
+        <field name="model">real.estate</field>
+        <field
+            name="inherit_id"
+            ref="realestate.realestate_abstract_entity_view_kanban"
+        />
+        <field name="mode">primary</field>
+        <field name="priority" eval="100" />
+        <field name="arch" type="xml">
+            <xpath expr="//kanban" position="attributes">
+                <attribute name="string">Estates</attribute>
+            </xpath>
+            <ul name="entity_details" position="inside">
+                <li t-if="record.zip.raw_value" class="o_text_overflow">
+                    <field name="zip" />
+                </li>
+                <li t-if="record.city.raw_value" class="o_text_overflow">
+                    <field name="city" />
+                </li>
+            </ul>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="real_estate_act_window">
+        <field name="name">Real Estate</field>
+        <field name="res_model">real.estate</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[]</field>
+        <field name="context">{}</field>
+        <field name="search_view_id" ref="real_estate_search_view" />
+        <field
+            name="view_ids"
+            eval="[(5, 0, 0),
+                          (0, 0, {'view_mode': 'kanban', 'view_id': ref('real_estate_view_kanban')}),
+                          (0, 0, {'view_mode': 'tree', 'view_id': ref('real_estate_tree_view')}),
+                          (0, 0, {'view_mode': 'form', 'view_id': ref('real_estate_form_view')}),
+                         ]"
+        />
+    </record>
+    <record model="ir.ui.menu" id="real_estate_menu">
+        <field name="name">Estates</field>
+        <field name="parent_id" ref="realestate.menu_realestate" />
+        <field name="action" ref="real_estate_act_window" />
+        <field name="sequence" eval="10" />
+    </record>
+    <!-- Contacts -->
+    <record id="contacts.action_contacts" model="ir.actions.act_window">
+        <field name="domain">[('type', '!=', 'real.estate')]</field>
+    </record>
+</odoo>

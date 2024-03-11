@@ -1,0 +1,1017 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* product_real_estate
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 13:58+0000\n"
+"PO-Revision-Date: 2024-02-15 13:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: product_real_estate
+#. odoo-python
+#: code:addons/product_real_estate/models/product_template.py:0
+#: model:ir.model.fields.selection,name:product_real_estate.selection__product_template__antiquity__50+
+#, python-format
+msgid "+ 50 years"
+msgstr "+ 50 años"
+
+#. module: product_real_estate
+#: model_terms:ir.ui.view,arch_db:product_real_estate.product_real_estate
+msgid "/ month"
+msgstr "/ mes"
+
+#. module: product_real_estate
+#. odoo-python
+#: code:addons/product_real_estate/models/product_template.py:0
+#: model:ir.model.fields.selection,name:product_real_estate.selection__product_template__antiquity__110
+#, python-format
+msgid "1 - 10 years"
+msgstr "1 - 10 años"
+
+#. module: product_real_estate
+#. odoo-python
+#: code:addons/product_real_estate/models/product_template.py:0
+#: model:ir.model.fields.selection,name:product_real_estate.selection__product_template__antiquity__1030
+#, python-format
+msgid "10 - 30 years "
+msgstr "10 - 30 años "
+
+#. module: product_real_estate
+#. odoo-python
+#: code:addons/product_real_estate/models/product_template.py:0
+#: model:ir.model.fields.selection,name:product_real_estate.selection__product_template__antiquity__3050
+#, python-format
+msgid "30 - 50 years"
+msgstr "30 - 50 años"
+
+#. module: product_real_estate
+#: model_terms:ir.ui.view,arch_db:product_real_estate.product_real_estate
+msgid ""
+"<br/>\n"
+"                                            <span class=\"campo_p\">Stove:</span>\n"
+"                                            <br/>"
+msgstr ""
+"<br/>\n"
+"                                            <span class=\"campo_p\">Cocina:</span>\n"
+"                                            <br/>"
+
+#. module: product_real_estate
+#: model_terms:ir.ui.view,arch_db:product_real_estate.product_real_estate
+msgid ""
+"<br/>\n"
+"                                            <span class=\"campo_p\">Thermo:</span>\n"
+"                                            <br/>"
+msgstr ""
+"<br/>\n"
+"                                            <span class=\"campo_p\">Termo:</span>\n"
+"                                            <br/>"
+
+#. module: product_real_estate
+#: model_terms:ir.ui.view,arch_db:product_real_estate.portal_my_real_estate
+msgid ""
+"<br/>\n"
+"                                            <span>Price:</span>"
+msgstr ""
+"<br/>\n"
+"                                            <span>Precio:</span>"
+
+#. module: product_real_estate
+#: model_terms:ir.ui.view,arch_db:product_real_estate.portal_my_real_estate
+msgid ""
+"<br/>\n"
+"                                            <span>State:</span>"
+msgstr ""
+"<br/>\n"
+"                                            <span>Estado:</span>"
+
+#. module: product_real_estate
+#: model_terms:ir.ui.view,arch_db:product_real_estate.portal_my_real_estate
+msgid ""
+"<br/>\n"
+"                                            <span>Zone:</span>"
+msgstr ""
+"<br/>\n"
+"                                            <span>Zona:</span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid ""
+"<br/>\n"
+"                                        <span class=\"campo_p\">Elevator:</span>"
+msgstr ""
+"<br/>\n"
+"                                        <span class=\"campo_p\">Elevador:</span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid ""
+"<br/>\n"
+"                                        <span class=\"campo_p\">Emissions:</span>\n"
+"                                        <br/>"
+msgstr ""
+"<br/>\n"
+"                                        <span class=\"campo_p\">Emisiones:</span>\n"
+"                                        <br/>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid ""
+"<br/>\n"
+"                                        <span class=\"campo_p\">Energy Consumption:</span>\n"
+"                                        <br/>"
+msgstr ""
+"<br/>\n"
+"                                        <span class=\"campo_p\">Consumo Energético:</span>\n"
+"                                        <br/>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid ""
+"<br/>\n"
+"                                        <span class=\"campo_p\">Garage:</span>"
+msgstr ""
+"<br/>\n"
+"                                        <span class=\"campo_p\">Garaje:</span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid ""
+"<br/>\n"
+"                                        <span class=\"campo_p\">Pool:</span>"
+msgstr ""
+"<br/>\n"
+"                                        <span class=\"campo_p\">Piscina:</span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid ""
+"<br/>\n"
+"                                        <span class=\"campo_p\">Terrace:</span>"
+msgstr ""
+"<br/>\n"
+"                                        <span class=\"campo_p\">Terraza:</span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid ""
+"<br/>\n"
+"                <span>\n"
+"                    <strong>Type:</strong>\n"
+"                </span>"
+msgstr ""
+"<br/>\n"
+"                <span>\n"
+"                    <strong>Tipo:</strong>\n"
+"                </span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid ""
+"<i style=\"font-size: 34px;\" class=\"fa fa-hospital-o\"/>\n"
+"                                        <br/>\n"
+"                                        <span class=\"campo_p\">Medical center:</span>"
+msgstr ""
+"<i style=\"font-size: 34px;\" class=\"fa fa-hospital-o\"/>\n"
+"                                        <br/>\n"
+"                                        <span class=\"campo_p\">Centro médico:</span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid ""
+"<i style=\"font-size: 34px;\" class=\"fa fa-shopping-bag\"/>\n"
+"                                        <br/>\n"
+"                                        <span class=\"campo_p\">Shopping Center:</span>"
+msgstr ""
+"<i style=\"font-size: 34px;\" class=\"fa fa-shopping-bag\"/>\n"
+"                                        <br/>\n"
+"                                        <span class=\"campo_p\">Centro comercial:</span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid ""
+"<i style=\"font-size: 34px;\" class=\"fa fa-truck\"/>\n"
+"                                        <br/>\n"
+"                                        <span class=\"campo_p\">Furnished:</span>"
+msgstr ""
+"<i style=\"font-size: 34px;\" class=\"fa fa-truck\"/>\n"
+"                                        <br/>\n"
+"                                        <span class=\"campo_p\">Amueblada:</span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "<span class=\"campo_p\">Price:</span>"
+msgstr "<span class=\"campo_p\">Precio:</span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.portal_my_real_estate
+msgid "<span>Type:</span>"
+msgstr "<span>Tipo:</span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+msgid ""
+"<span>kW h m<sup>2</sup> / year\n"
+"                                    </span>"
+msgstr ""
+"<span>kW h m<sup>2</sup> / año\n"
+"                                    </span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+msgid ""
+"<span>kg CO <sub>2</sub> m <sup>2</sup> / year\n"
+"                                    </span>"
+msgstr ""
+"<span>kg CO <sub>2</sub> m <sup>2</sup> / año\n"
+"                                    </span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+msgid ""
+"<span>m\n"
+"                                        <sup>2</sup>\n"
+"                                    </span>"
+msgstr ""
+"<span>m\n"
+"                                        <sup>2</sup>\n"
+"                                    </span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+msgid "<span>m</span>"
+msgstr "<span>m</span>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "<strong>Description:</strong>"
+msgstr "<strong>Descripción:</strong>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.add_to_wishlist
+msgid "<strong>Surface:</strong>"
+msgstr "<strong>Superficie:</strong>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.add_to_wishlist
+msgid "<strong>Type:</strong>"
+msgstr "<strong>Tipo:</strong>"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.add_to_wishlist
+msgid "<strong>Zone:</strong>"
+msgstr "<strong>Zona:</strong>"
+
+#. module: real_estate
+#: model:ir.model.fields,help:real_estate.field_product_product__detailed_type
+#: model:ir.model.fields,help:real_estate.field_product_template__detailed_type
+msgid ""
+"A storable product is a product for which you manage stock. The Inventory app has to be installed.\n"
+"A consumable product is a product for which stock is not managed.\n"
+"A service is a non-material product you provide."
+msgstr ""
+"Un producto almacenable es un producto para el que gestiona stock. La aplicación de inventario debe estar instalada.\n"
+"Un producto consumible es un producto para el que no se gestionan las existencias.\n"
+"Un servicio es un producto no material."
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+msgid "Address"
+msgstr "Dirección"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__antiquity
+#: model:ir.model.fields,field_description:real_estate.field_product_template__antiquity
+#, python-format
+msgid "Antiquity"
+msgstr "Antigüedad"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "Antiquity:"
+msgstr "Antigüedad:"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields.selection,name:real_estate.selection__product_template__flat_condition__bad
+#, python-format
+msgid "Bad"
+msgstr "Mala"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__beach
+#: model:ir.model.fields,field_description:real_estate.field_product_template__beach
+#, python-format
+msgid "Beach distance"
+msgstr "Distancia de la playa"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "Beach:"
+msgstr "Playa:"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__bedrooms
+#: model:ir.model.fields,field_description:real_estate.field_product_template__bedrooms
+#, python-format
+msgid "Bedrooms"
+msgstr "Dormitorios"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "Bedrooms:"
+msgstr "Dormitorios:"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_product__city
+#: model:ir.model.fields,field_description:real_estate.field_product_template__city
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+msgid "City"
+msgstr "Ciudad"
+
+#. module: real_estate
+#: model:ir.ui.menu,name:real_estate.configuration_menu
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: real_estate
+#: model:ir.model,name:real_estate.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__country_id
+#: model:ir.model.fields,field_description:real_estate.field_product_template__country_id
+#: model_terms:ir.ui.view,arch_db:real_estate.view_country_zone_search
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+#, python-format
+msgid "Country"
+msgstr "País"
+
+#. module: real_estate
+#: model:ir.model,name:real_estate.model_res_country_zone
+msgid "Country Zone"
+msgstr "Zona"
+
+#. module: real_estate
+#: model_terms:ir.actions.act_window,help:real_estate.flats_action_website
+msgid "Create a new flat"
+msgstr "Crear nuevo departamento"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_real_estate_type__create_uid
+#: model:ir.model.fields,field_description:real_estate.field_res_country_zone__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_real_estate_type__create_date
+#: model:ir.model.fields,field_description:real_estate.field_res_country_zone__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__description
+#: model:ir.model.fields,field_description:real_estate.field_product_template__description
+#, python-format
+msgid "Description"
+msgstr "Descripción"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+msgid "Details"
+msgstr "Detalles"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields.selection,name:real_estate.selection__product_template__flat_condition__deteriorated
+#, python-format
+msgid "Deteriorated"
+msgstr "Deteriorado"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_real_estate_type__display_name
+#: model:ir.model.fields,field_description:real_estate.field_res_country_zone__display_name
+msgid "Display Name"
+msgstr "Nombre"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields.selection,name:real_estate.selection__product_template__stove__electric
+#: model:ir.model.fields.selection,name:real_estate.selection__product_template__thermo__electric
+#, python-format
+msgid "Electric"
+msgstr "Electricidad"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__elevator
+#: model:ir.model.fields,field_description:real_estate.field_product_template__elevator
+#, python-format
+msgid "Elevator"
+msgstr "Elevador"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__emissions
+#: model:ir.model.fields,field_description:real_estate.field_product_template__emissions
+#, python-format
+msgid "Emissions"
+msgstr "Emisiones"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__energy_consumption
+#: model:ir.model.fields,field_description:real_estate.field_product_template__energy_consumption
+#, python-format
+msgid "Energy consumption"
+msgstr "Consumo energético"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "Expenses"
+msgstr "Gastos"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+msgid "Facilities"
+msgstr "Facilidades"
+
+#. module: real_estate
+#: model:ir.model.fields.selection,name:real_estate.selection__product_template__price_type__fixed
+msgid "Fixed"
+msgstr ""
+
+#. module: real_estate
+#: model:real.estate.type,name:real_estate.real_estate_type_flat
+msgid "Flat"
+msgstr "Departamento"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_product__flat_condition
+#: model:ir.model.fields,field_description:real_estate.field_product_template__flat_condition
+msgid "Flat Condition"
+msgstr "Condición del departamento"
+
+#. module: real_estate
+#: model:ir.ui.menu,name:real_estate.flat_tag_menu
+msgid "Flat Tags"
+msgstr "Etiquetas"
+
+#. module: real_estate
+#: model:ir.ui.menu,name:real_estate.flat_type_menu
+msgid "Flat Types"
+msgstr "Tipo departamento"
+
+#. module: real_estate
+#: model:ir.actions.act_window,name:real_estate.flats_action_website
+#: model:ir.ui.menu,name:real_estate.flat_menu
+msgid "Flats"
+msgstr "Departamentos"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__floor
+#: model:ir.model.fields,field_description:real_estate.field_product_template__floor
+#, python-format
+msgid "Floor"
+msgstr "Piso"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "Floor:"
+msgstr "Piso"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__furnished
+#: model:ir.model.fields,field_description:real_estate.field_product_template__furnished
+#, python-format
+msgid "Furnished"
+msgstr "Amueblado"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__garage
+#: model:ir.model.fields,field_description:real_estate.field_product_template__garage
+#, python-format
+msgid "Garage"
+msgstr "Garaje"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields.selection,name:real_estate.selection__product_template__stove__gas
+#: model:ir.model.fields.selection,name:real_estate.selection__product_template__thermo__gas
+#, python-format
+msgid "Gas"
+msgstr "Gas"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields.selection,name:real_estate.selection__product_template__flat_condition__good
+#, python-format
+msgid "Good"
+msgstr "Bueno"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__google_maps_url
+#: model:ir.model.fields,field_description:real_estate.field_product_template__google_maps_url
+#, python-format
+msgid "Google Maps Url"
+msgstr "Google Maps Url"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_country_zone_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: real_estate
+#: model:real.estate.type,name:real_estate.real_estate_type_house
+msgid "House"
+msgstr "Casa"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_real_estate_type__id
+#: model:ir.model.fields,field_description:real_estate.field_res_country_zone__id
+msgid "ID"
+msgstr "ID"
+
+#. module: real_estate
+#: model:real.estate.type,name:real_estate.real_estate_type_land
+msgid "Land"
+msgstr "Tierra"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_real_estate_type____last_update
+#: model:ir.model.fields,field_description:real_estate.field_res_country_zone____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_real_estate_type__write_uid
+#: model:ir.model.fields,field_description:real_estate.field_res_country_zone__write_uid
+msgid "Last Updated by"
+msgstr "Última modificación por"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_real_estate_type__write_date
+#: model:ir.model.fields,field_description:real_estate.field_res_country_zone__write_date
+msgid "Last Updated on"
+msgstr "Última modificación el"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "Location"
+msgstr "Ubicación"
+
+#. module: real_estate
+#: model:ir.model.fields.selection,name:real_estate.selection__product_template__price_type__monthly
+msgid "Monthly"
+msgstr "Mensual"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/controllers/portal.py:0
+#: model:ir.model.fields,field_description:real_estate.field_real_estate_type__name
+#, python-format
+msgid "Name"
+msgstr "Nombre"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__medical_center
+#: model:ir.model.fields,field_description:real_estate.field_product_template__medical_center
+#, python-format
+msgid "Near Medical Center"
+msgstr "Cerca de centro médico"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__shopping_center
+#: model:ir.model.fields,field_description:real_estate.field_product_template__shopping_center
+#, python-format
+msgid "Near Shopping Center"
+msgstr "Cerca de centro comercial"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields.selection,name:real_estate.selection__product_template__flat_condition__new
+#, python-format
+msgid "New"
+msgstr "Nuevo"
+
+#. module: real_estate
+#: model:real.estate.type,name:real_estate.real_estate_type_office
+msgid "Office"
+msgstr "Oficina"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__owner_ids
+#: model:ir.model.fields,field_description:real_estate.field_product_template__owner_ids
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+#, python-format
+msgid "Owner/s"
+msgstr "Propietario/s"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+msgid "Owner/s / Tenant/s"
+msgstr "Propietario/s / Inquilino/s"
+
+#. module: real_estate
+#: model:ir.actions.act_window,name:real_estate.owners_list_action
+#: model:ir.ui.menu,name:real_estate.owners_menu
+#: model:ir.ui.menu,name:real_estate.owners_menu_list
+msgid "Owners"
+msgstr "Propietarios"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__parking
+#: model:ir.model.fields,field_description:real_estate.field_product_template__parking
+#, python-format
+msgid "Parking"
+msgstr "Parqueo"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__existent_pool
+#: model:ir.model.fields,field_description:real_estate.field_product_template__existent_pool
+#, python-format
+msgid "Pool"
+msgstr "Piscina"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "Price information"
+msgstr "Información de precio"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__price_type
+#: model:ir.model.fields,field_description:real_estate.field_product_template__price_type
+#, python-format
+msgid "Price type"
+msgstr "Tipo de precio"
+
+#. module: real_estate
+#: model:ir.model,name:real_estate.model_product_template
+msgid "Product"
+msgstr "Producto"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_product__detailed_type
+#: model:ir.model.fields,field_description:real_estate.field_product_template__detailed_type
+msgid "Product Type"
+msgstr "Tipo producto"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/res_partner.py:0
+#: model:ir.model.fields,field_description:real_estate.field_res_partner__property_ids
+#: model:ir.model.fields,field_description:real_estate.field_res_users__property_ids
+#: model_terms:ir.ui.view,arch_db:real_estate.real_estate_client_form_view
+#, python-format
+msgid "Properties"
+msgstr "Propiedades"
+
+#. module: real_estate
+#: model:ir.model.fields.selection,name:real_estate.selection__product_template__detailed_type__real_estate
+#: model:ir.model.fields.selection,name:real_estate.selection__product_template__type__real_estate
+#: model:ir.ui.menu,name:real_estate.main_real_estate_menu
+#: model_terms:ir.ui.view,arch_db:real_estate.real_estate_client_form_view
+msgid "Real Estate"
+msgstr "Bienes raíces"
+
+#. module: real_estate
+#: model:ir.model,name:real_estate.model_real_estate_type
+msgid "Real Estate Type"
+msgstr "Tipo de Bienes Raíces"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_product__real_estate_type_id
+#: model:ir.model.fields,field_description:real_estate.field_product_template__real_estate_type_id
+msgid "Real Estate type"
+msgstr "Tipo de Bienes Raíces"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.portal_my_home_menu_product_template
+#: model_terms:ir.ui.view,arch_db:real_estate.portal_my_home_product_template
+#: model_terms:ir.ui.view,arch_db:real_estate.portal_my_real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+msgid "Real estate"
+msgstr "Bienes raíces"
+
+#. module: real_estate
+#: model:ir.model.fields.selection,name:real_estate.selection__product_template__sale_type__rent
+msgid "Rent"
+msgstr "Renta"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/res_partner.py:0
+#: model:ir.model.fields,field_description:real_estate.field_res_partner__rented_property_ids
+#: model:ir.model.fields,field_description:real_estate.field_res_users__rented_property_ids
+#: model_terms:ir.ui.view,arch_db:real_estate.real_estate_client_form_view
+#, python-format
+msgid "Rented Properties"
+msgstr "Propiedades rentadas"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__restrooms
+#: model:ir.model.fields,field_description:real_estate.field_product_template__restrooms
+#, python-format
+msgid "Restrooms"
+msgstr "Baños"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "Restrooms:"
+msgstr "Baños:"
+
+#. module: real_estate
+#: model:ir.model.fields.selection,name:real_estate.selection__product_template__sale_type__sale
+msgid "Sale"
+msgstr "Venta"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "Specifications"
+msgstr "Especificaciones"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__state_id
+#: model:ir.model.fields,field_description:real_estate.field_product_template__state_id
+#: model:ir.model.fields,field_description:real_estate.field_res_country_zone__state_id
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+#, python-format
+msgid "State"
+msgstr "Estado"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__stove
+#: model:ir.model.fields,field_description:real_estate.field_product_template__stove
+#, python-format
+msgid "Stove type"
+msgstr "Tipo de cocina"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_product__street
+#: model:ir.model.fields,field_description:real_estate.field_product_template__street
+msgid "Street"
+msgstr "Calle"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+msgid "Street 2..."
+msgstr "Calle 2..."
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+msgid "Street..."
+msgstr "Calle..."
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_product__street2
+#: model:ir.model.fields,field_description:real_estate.field_product_template__street2
+msgid "Street2"
+msgstr "Calle2"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__surface
+#: model:ir.model.fields,field_description:real_estate.field_product_template__surface
+#, python-format
+msgid "Surface"
+msgstr "Superficie"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "Surface:"
+msgstr "Superficie:"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "System • Image and Text"
+msgstr "Sistema • Imagen y Texto"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+msgid "Technical data"
+msgstr "Datos técnicos"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "Technical details"
+msgstr "Detalles técnicos"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__tenant_ids
+#: model:ir.model.fields,field_description:real_estate.field_product_template__tenant_ids
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+#, python-format
+msgid "Tenant/s"
+msgstr "Inquilino/s"
+
+#. module: real_estate
+#: model:ir.actions.act_window,name:real_estate.tenants_list_action
+#: model:ir.ui.menu,name:real_estate.tenants_menu
+#: model:ir.ui.menu,name:real_estate.tenants_menu_list
+msgid "Tenants"
+msgstr "Inquilinos"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__thermo
+#: model:ir.model.fields,field_description:real_estate.field_product_template__thermo
+#, python-format
+msgid "Termo type"
+msgstr "Tipo de termo"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__terrace
+#: model:ir.model.fields,field_description:real_estate.field_product_template__terrace
+#, python-format
+msgid "Terrace"
+msgstr "Terraza"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#, python-format
+msgid "The price can not be negative"
+msgstr "El precio no puede ser negativo"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.portal_my_real_estate
+msgid "There are currently no real estate for your account."
+msgstr "Actualmente no hay bienes inmuebles para su cuenta."
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__train_station
+#: model:ir.model.fields,field_description:real_estate.field_product_template__train_station
+#, python-format
+msgid "Train Station"
+msgstr "Estación de tren"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "Train Station:"
+msgstr "Estación de tren:"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__tram_station
+#: model:ir.model.fields,field_description:real_estate.field_product_template__tram_station
+#, python-format
+msgid "Tram Station"
+msgstr "Estación de tren"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "Tram Station:"
+msgstr "Estación de tren:"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_product__type
+#: model:ir.model.fields,field_description:real_estate.field_product_template__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__sale_type
+#: model:ir.model.fields,field_description:real_estate.field_product_template__sale_type
+#, python-format
+msgid "Type of sale"
+msgstr "Tipo de venta"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#, python-format
+msgid "Warning"
+msgstr "Atención"
+
+#. module: real_estate
+#: model_terms:ir.actions.act_window,help:real_estate.action_country_zone
+msgid ""
+"You can manage the different zones you are working on from here. Each zone "
+"is attached to one state."
+msgstr "Puedes gestionar las diferentes zonas en las que estás trabajando desde aquí. Cada zona "
+"está adscrito a un estado."
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+msgid "ZIP"
+msgstr "CP"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_product__zip_code
+#: model:ir.model.fields,field_description:real_estate.field_product_template__zip_code
+msgid "Zip Code"
+msgstr "Códifo postal"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/product_template.py:0
+#: model:ir.model.fields,field_description:real_estate.field_product_product__zone_id
+#: model:ir.model.fields,field_description:real_estate.field_product_template__zone_id
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_country_zone_form
+#: model_terms:ir.ui.view,arch_db:real_estate.view_product_real_estate_form
+#, python-format
+msgid "Zone"
+msgstr "Zone"
+
+#. module: real_estate
+#. odoo-python
+#: code:addons/real_estate/models/res_country_zone.py:0
+#: model:ir.model.fields,field_description:real_estate.field_res_country_zone__name
+#, python-format
+msgid "Zone Name"
+msgstr "Nombre zona"
+
+#. module: real_estate
+#: model:ir.actions.act_window,name:real_estate.action_country_zone
+#: model:ir.ui.menu,name:real_estate.menu_country_zone_partner
+#: model:ir.ui.menu,name:real_estate.menu_country_zone_real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.view_country_zone_tree
+msgid "Zones"
+msgstr "Zonas"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "kW h m<sup>2</sup> / year"
+msgstr "kW h m<sup>2</sup> / año"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid "kg CO <sub>2</sub> m <sup>2</sup> / year"
+msgstr "kg CO <sub>2</sub> m <sup>2</sup> / año"
+
+#. module: real_estate
+#: model_terms:ir.ui.view,arch_db:real_estate.product_real_estate
+msgid ""
+"m\n"
+"                                            <sup>2</sup>"
+msgstr ""
+"m\n"
+"                                            <sup>2</sup>"

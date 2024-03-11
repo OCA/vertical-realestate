@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2020 ACSONE SA/NV
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record model="ir.ui.view" id="real_estate_type_form_view">
+        <field name="name">real.estate.type.form (in realestate_estate)</field>
+        <field name="model">real.estate.type</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="code" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="real_estate_type_search_view">
+        <field name="name">real.estate.type.search (in realestate_estate)
+        </field>
+        <field name="model">real.estate.type</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" />
+                <field name="code" />
+            </search>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="real_estate_type_tree_view">
+        <field name="name">real.estate.type.tree (in realestate_estate)</field>
+        <field name="model">real.estate.type</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="real_estate_type_act_window">
+        <field name="name">Real Estate Type</field>
+        <!-- TODO -->
+        <field name="res_model">real.estate.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[]</field>
+        <field name="context">{}</field>
+    </record>
+    <record model="ir.ui.menu" id="real_estate_type_menu">
+        <field name="name">Types</field>
+        <field name="parent_id" ref="realestate.real_estate_configuration_menu" />
+        <field name="action" ref="real_estate_type_act_window" />
+        <field name="sequence" eval="16" />
+    </record>
+</odoo>

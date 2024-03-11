@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2020 ACSONE SA/NV
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+    <record model="ir.module.category" id="module_category_realestate">
+        <field name="name">Real Estate</field>
+        <field name="visible" eval="1" />
+    </record>
+    <record id="group_realestate_reader" model="res.groups">
+        <field name="name">Real Estate Reader</field>
+        <field name="category_id" ref="realestate.module_category_realestate" />
+        <field name="comment">The user will be able to read realestate.</field>
+    </record>
+    <record id="group_realestate_employee" model="res.groups">
+        <field name="name">Real Estate Employee</field>
+        <field name="category_id" ref="realestate.module_category_realestate" />
+        <field
+            name="implied_ids"
+            eval="[(4, ref('realestate.group_realestate_reader'))]"
+        />
+        <field name="comment">The user will be able to use realestate.</field>
+    </record>
+    <record id="group_realestate_manager" model="res.groups">
+        <field name="name">Real Estate Manager</field>
+        <field name="category_id" ref="realestate.module_category_realestate" />
+        <field
+            name="implied_ids"
+            eval="[(4, ref('realestate.group_realestate_employee'))]"
+        />
+        <field name="comment">The user will be able to manage realestate.</field>
+    </record>
+</odoo>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_product_real_estate_form" model="ir.ui.view">
+        <field name="name">product.template.real.estate.form</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view" />
+        <field name="arch" type="xml">
+            <xpath
+                expr="//page[@name='general_information']/group[2]"
+                position="before"
+            >
+                <notebook
+                    string="Real estate"
+                    name="real_estate"
+                    attrs="{'invisible': [('detailed_type', '!=', 'real_estate')]}"
+                >
+                    <page string="Details">
+                        <group>
+                            <group>
+                                <label for="street" string="Address" />
+                                <div class="o_address_format">
+                                    <field
+                                        name="street"
+                                        placeholder="Street..."
+                                        class="o_address_street"
+                                    />
+                                    <field
+                                        name="street2"
+                                        placeholder="Street 2..."
+                                        class="o_address_street"
+                                    />
+                                    <field
+                                        name="city"
+                                        placeholder="City"
+                                        class="o_address_city"
+                                    />
+                                    <field
+                                        name="state_id"
+                                        class="o_address_state"
+                                        placeholder="State"
+                                        options='{"no_open": True}'
+                                        context="{'country_id': country_id, 'zip': zip_code}"
+                                    />
+                                    <field
+                                        name="zip_code"
+                                        placeholder="ZIP"
+                                        class="o_address_zip"
+                                    />
+                                    <field
+                                        name="country_id"
+                                        placeholder="Country"
+                                        class="o_address_country"
+                                        options='{"no_open": True, "no_create": True}'
+                                    />
+                                    <field
+                                        name="zone_id"
+                                        class="o_address_country"
+                                        placeholder="Zone"
+                                        context="{'state_id': state_id}"
+                                    />
+
+                                </div>
+                            </group>
+                            <group>
+                                <field name="sale_type" />
+                                <field name="real_estate_type_id" />
+                                <field name="flat_condition" />
+                                <field name="google_maps_url" widget="url" />
+                                <field name="antiquity" />
+                                <field name="floor" />
+                            </group>
+                            <group>
+                                <field name="stove" />
+                                <field name="thermo" />
+                                <label for="energy_consumption" />
+                                <div class="o_row">
+                                    <field name="energy_consumption" />
+                                    <span>kW h m<sup>2</sup> / year
+                                    </span>
+                                </div>
+                                <label for="emissions" />
+                                <div class="o_row">
+                                    <field name="emissions" />
+                                    <span>kg CO <sub>2</sub> m <sup>2</sup> / year
+                                    </span>
+                                </div>
+                            </group>
+                        </group>
+                    </page>
+                    <page string="Owner/s / Tenant/s">
+                        <label for="owner_ids" string="Owner/s" class="oe_inline" />
+                        <field name="owner_ids">
+                            <tree>
+                                <field name="name" />
+                                <field name="phone" />
+                                <field name="email" />
+                                <field name="city" />
+                                <field name="country_id" />
+                                <field name="vat" />
+                                <field name="category_id" />
+                            </tree>
+                        </field>
+                        <label for="tenant_ids" string="Tenant/s" class="oe_inline" />
+                        <field name="tenant_ids" nolabel="1">
+                            <tree>
+                                <field name="name" />
+                                <field name="phone" />
+                                <field name="email" />
+                                <field name="city" />
+                                <field name="country_id" />
+                                <field name="vat" />
+                                <field name="category_id" />
+                            </tree>
+                        </field>
+                    </page>
+                    <page string="Technical data">
+                        <group>
+                            <group>
+                                <field name="furnished" />
+                                <field name="elevator" />
+                                <field name="existent_pool" />
+                                <field name="terrace" />
+                                <field name="garage" />
+                            </group>
+                            <group>
+                                <label for="restrooms" />
+                                <div class="o_row">
+                                    <field name="restrooms" />
+                                </div>
+                                <label for="bedrooms" />
+                                <div class="o_row">
+                                    <field name="bedrooms" />
+                                </div>
+                                <label for="surface" />
+                                <div class="o_row">
+                                    <field name="surface" />
+                                    <span>m
+                                        <sup>2</sup>
+                                    </span>
+                                </div>
+                            </group>
+                        </group>
+                    </page>
+                    <page string="Facilities">
+                        <group>
+                            <group>
+                                <field name="shopping_center" />
+                                <field name="medical_center" />
+                                <label for="train_station" />
+                                <div class="o_row">
+                                    <field name="train_station" />
+                                    <span>m</span>
+                                </div>
+                                <label for="tram_station" />
+                                <div class="o_row">
+                                    <field name="tram_station" />
+                                    <span>m</span>
+                                </div>
+                                <label for="beach" />
+                                <div class="o_row">
+                                    <field name="beach" />
+                                    <span>m</span>
+                                </div>
+                            </group>
+                        </group>
+                    </page>
+                </notebook>
+            </xpath>
+        </field>
+    </record>
+</odoo>

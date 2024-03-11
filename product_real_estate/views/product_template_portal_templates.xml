@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template
+        id="portal_my_home_menu_product_template"
+        name="Portal layout: product menu entry"
+        inherit_id="portal.portal_breadcrumbs"
+        priority="35"
+    >
+        <xpath expr="//ol[hasclass('o_portal_submenu')]" position="inside">
+            <li
+                t-if="page_name == 'real_estate' or real_estate"
+                t-attf-class="breadcrumb-item #{'active' if not real_estate else ''}"
+            >
+                <t>Real estate</t>
+            </li>
+        </xpath>
+    </template>
+    <template
+        id="portal_my_home_product_template"
+        name="Show Real estate"
+        customize_show="True"
+        inherit_id="portal.portal_my_home"
+        priority="45"
+    >
+        <xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
+            <t t-call="portal.portal_docs_entry">
+                <t t-set="title">Real estate</t>
+                <t t-set="url" t-value="'/my/real-estate'" />
+                <t t-set="placeholder_count" t-value="'product_count'" />
+            </t>
+        </xpath>
+    </template>
+    <template id="portal_my_real_estate" name="My Real estate">
+        <t t-call="portal.portal_layout">
+            <t t-set="breadcrumbs_searchbar" t-value="True" />
+            <t t-call="portal.portal_searchbar">
+                <t t-set="title">Real estate</t>
+            </t>
+            <t t-if="products">
+                <div class="container" name="container_info">
+                    <div class="row" name="row_info">
+                        <t t-foreach="products" t-as="product">
+                            <div class="col-md-4" name="product_info">
+                                <div class="card" name="card_info">
+                                    <div
+                                        t-field="product.image_1920"
+                                        t-options='{"widget": "image", "preview_image": "image_1024", "class": "oe_unmovable product_detail_img mh-100", "alt-field": "name", "zoom": product.can_image_1024_be_zoomed and "image_1920"}'
+                                    />
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <t t-out="product.name" />
+                                        </h5>
+                                        <p class="card-text">
+                                            <span>Type:</span>
+                                            <span>
+                                                <t t-out="product.sale_type" />
+                                            </span>
+                                            <br />
+                                            <span>Zone:</span>
+                                            <span>
+                                                <t t-out="product.zone_id.name" />
+                                            </span>
+                                            <br />
+                                            <span>State:</span>
+                                            <span>
+                                                <t t-out="product.state_id.name" />
+                                            </span>
+                                            <br />
+                                            <span>Price:</span>
+                                            <span>
+                                                <t t-out="product.list_price" />
+                                            </span>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </t>
+                    </div>
+                </div>
+            </t>
+            <p t-else="">There are currently no real estate for your account.</p>
+        </t>
+    </template>
+</odoo>

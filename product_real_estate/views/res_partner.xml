@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record model="ir.ui.view" id="real_estate_client_form_view">
+        <field name="name">real.estate.client</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page string="Real Estate" name="real_estate">
+                    <label for="property_ids" string="Properties" class="oe_inline" />
+                    <field name="property_ids">
+                        <tree>
+                            <field name="name" />
+                            <field name="real_estate_type_id" />
+                            <field name="state_id" />
+                            <field name="zone_id" />
+                        </tree>
+                    </field>
+                    <label
+                        for="rented_property_ids"
+                        string="Rented Properties"
+                        class="oe_inline"
+                    />
+                    <field name="rented_property_ids">
+                        <tree>
+                            <field name="name" />
+                            <field name="real_estate_type_id" />
+                            <field name="state_id" />
+                            <field name="zone_id" />
+                        </tree>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="tenants_list_action">
+        <field name="name">Tenants</field>
+        <field name="res_model">res.partner</field>
+        <field name="domain">[('rented_property_ids', '!=', False)]</field>
+
+    </record>
+    <record model="ir.actions.act_window" id="owners_list_action">
+        <field name="name">Owners</field>
+        <field name="res_model">res.partner</field>
+        <field name="domain">[('property_ids', '!=', False)]</field>
+
+    </record>
+    <menuitem
+        id="owners_menu"
+        name="Owners"
+        parent="main_real_estate_menu"
+        sequence="2"
+    />
+
+    <menuitem
+        id="owners_menu_list"
+        name="Owners"
+        parent="realestate.menu_realestate"
+        action="owners_list_action"
+    />
+
+
+    <menuitem
+        id="tenants_menu"
+        name="Tenants"
+        parent="realestate.menu_realestate"
+        sequence="3"
+    />
+
+    <menuitem
+        id="tenants_menu_list"
+        name="Tenants"
+        parent="tenants_menu"
+        action="tenants_list_action"
+    />
+</odoo>
