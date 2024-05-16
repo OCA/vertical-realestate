@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2020 ACSONE SA/NV
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+
+    <record model="real.estate" id="real_estate_flat_1">
+       <field name="name">A beautiful flat</field>
+       <field name="type_id" ref="real_estate_type_flat" />
+       <field
+            name="short_description"
+        >A beautiful flat located in a calm suburb.</field>
+       <field name="description">
+            Number of sleeping rooms: 3
+            Number of bathrooms: 1
+            Open Kitchen: 1
+       </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template
+        id="add_to_wishlist"
+        inherit_id="website_sale.products_item"
+        customize_show="True"
+        name="Show Real Estate info"
+        priority="20"
+    >
+        <xpath
+            expr="//div[hasclass('o_wsale_product_information_text')]"
+            position="inside"
+        >
+            <div t-if="product.type == 'real_estate'" class="row">
+                <div class="col-6">
+                    <t t-if="product.surface">
+                        <strong>Surface:</strong>
+                        <span t-field="product.surface" />
+                        <br />
+                    </t>
+                    <t t-if="product.sale_type">
+                        <strong>Type:</strong>
+                        <span t-field="product.sale_type" />
+                        <br />
+                    </t>
+                </div>
+                <div class="col-6">
+                    <t t-if="product.zone_id">
+                        <strong>Zone:</strong>
+                        <span t-field="product.zone_id" />
+                        <br />
+                    </t>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <template
+        id="product_real_estate"
+        inherit_id="website_sale.product"
+        active="True"
+        customize_show="True"
+        name="Real Estate Description"
+    >
+        <xpath expr="//div[@id='product_details']" position="inside">
+            <t t-if="product.type == 'real_estate'">
+                <span t-if="product.description">
+                    <strong>Description:</strong>
+                </span>
+                <t t-if="product.description">
+                    <span t-esc="product.description" />
+                </t>
+                <br />
+                <span>
+                    <strong>Type:</strong>
+                </span>
+                <t t-if="product.sale_type">
+                    <span class="badge badge-pill badge-primary">
+                        <span t-field="product.sale_type" />
+                    </span>
+                    <br />
+                </t>
+                <br />
+                <t t-if="product.tag_ids">
+                    <div style="margin-top:1%;">
+                        <t t-foreach="product.tag_ids" t-as="tag">
+                            <span
+                                style="font-size: 100%;"
+                                class="badge badge-pill badge-secondary"
+                            >
+                                <t t-esc="tag.sudo().name" />
+                            </span>
+                        </t>
+                    </div>
+                </t>
+                <br />
+            </t>
+        </xpath>
+        <xpath expr="//section[@id='product_detail']" position="inside">
+            <t t-if="product.type == 'real_estate'">
+                <hr />
+                <t t-if="product.zone_id">
+                    <h2>Location</h2>
+                    <div class="row">
+                        <div class="col-12">
+                            <t t-if="product.zone_id">
+                                <h5
+                                    style="font-weight: normal !important;"
+                                    t-field="product.zone_id"
+                                />
+                            </t>
+                        </div>
+                    </div>
+                    <br />
+                    <hr />
+                </t>
+                <div class="row">
+                    <h2>Specifications</h2>
+                </div>
+                <br />
+                <div class="row" style="background-color: aliceblue;">
+                    <div class="col-md-12">
+                        <nav style="padding-top: 2%;">
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a
+                                    class="nav-item nav-link active"
+                                    id="nav-profile-tab"
+                                    data-toggle="tab"
+                                    href="#nav-profile"
+                                    role="tab"
+                                    aria-controls="nav-profile"
+                                    aria-selected="false"
+                                >
+                                    Technical details
+                                </a>
+                            </div>
+                        </nav>
+                        <div
+                            class="tab-content"
+                            style="padding-bottom: 2%;"
+                            id="nav-tabContent"
+                        >
+                            <div
+                                class="tab-pane fade show active"
+                                id="nav-profile"
+                                role="tabpanel"
+                                aria-labelledby="nav-profile-tab"
+                            >
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <i
+                                            style="font-size: 34px;"
+                                            class="fa fa-truck"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Furnished:</span>
+                                        <t t-if="product.furnished == True">
+                                            <i class="fa fa-check" />
+                                            <br />
+                                        </t>
+                                        <t t-if="product.furnished != True">
+                                            <i class="fa fa-times" />
+                                            <br />
+                                        </t>
+                                    </div>
+                                    <div class="col-md-3">
+
+                                        <img
+                                            src="/product_real_estate/static/src/img/lift.png"
+                                            style="width: 32px;height: 32px;"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Elevator:</span>
+                                        <t t-if="product.elevator == True">
+                                            <i class="fa fa-check" />
+                                            <br />
+                                        </t>
+                                        <t t-if="product.elevator != True">
+                                            <i class="fa fa-times" />
+                                            <br />
+                                        </t>
+                                    </div>
+                                    <div class="col-md-3">
+
+                                        <img
+                                            src="/product_real_estate/static/src/img/toilet.png"
+                                            style="width: 32px;height: 32px;"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Restrooms:
+                                            <span
+                                                class="campo_s"
+                                                t-esc="product.restrooms"
+                                            />
+                                        </span>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <i style="font-size: 34px;" class="fa fa-bed" />
+                                        <br />
+                                        <span class="campo_p">Bedrooms:
+                                            <span
+                                                class="campo_s"
+                                                t-esc="product.bedrooms"
+                                            />
+                                        </span>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-3">
+
+                                        <img
+                                            src="/product_real_estate/static/src/img/garage.png"
+                                            style="width: 32px;height: 32px;"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Garage:</span>
+                                        <t t-if="product.garage == True">
+                                            <i class="fa fa-check" />
+                                            <br />
+                                        </t>
+                                        <t t-if="product.garage != True">
+                                            <i class="fa fa-times" />
+                                            <br />
+                                        </t>
+                                    </div>
+                                    <div class="col-md-3">
+
+                                        <img
+                                            src="/product_real_estate/static/src/img/swimming.png"
+                                            style="width: 32px;height: 32px;"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Pool:</span>
+                                        <t t-if="product.existent_pool == True">
+                                            <i class="fa fa-check" />
+                                            <br />
+                                        </t>
+                                        <t t-if="product.existent_pool != True">
+                                            <i class="fa fa-times" />
+                                            <br />
+                                        </t>
+                                    </div>
+                                    <div class="col-md-3">
+
+                                        <img
+                                            src="/product_real_estate/static/src/img/ruler.png"
+                                            style="width: 32px;height: 32px;"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Surface:<span
+                                                class="campo_s"
+                                                t-esc="product.surface"
+                                            />m
+                                            <sup>2</sup>
+                                        </span>
+                                    </div>
+                                    <div class="col-md-3">
+
+                                        <img
+                                            src="/product_real_estate/static/src/img/shop.png"
+                                            style="width: 32px;height: 32px;"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Terrace:</span>
+                                        <t t-if="product.terrace == True">
+                                            <i class="fa fa-check" />
+                                            <br />
+                                        </t>
+                                        <t t-if="product.terrace != True">
+                                            <i class="fa fa-times" />
+                                            <br />
+                                        </t>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-3">
+
+                                        <img
+                                            src="/product_real_estate/static/src/img/clock.png"
+                                            style="width: 32px;height: 32px;"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Antiquity:
+                                            <span
+                                                class="campo_s"
+                                                t-field="product.antiquity"
+                                            />
+                                        </span>
+                                    </div>
+                                    <div class="col-md-3">
+
+                                        <img
+                                            src="/product_real_estate/static/src/img/floor.png"
+                                            style="width: 32px;height: 32px;"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Floor:
+                                            <span
+                                                class="campo_s"
+                                                t-esc="product.floor"
+                                            />
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="nav-contact"
+                                role="tabpanel"
+                                aria-labelledby="nav-contact-tab"
+                            >
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-3">
+
+                                        <img
+                                            src="/product_real_estate/static/src/img/energy.png"
+                                            style="width: 32px;height: 32px;"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Energy Consumption:</span>
+                                        <br />
+                                        <span>
+                                            <t t-esc="product.energy_consumption" />
+                                            kW h m<sup>2</sup> / year
+                                        </span>
+                                    </div>
+                                    <div class="col-md-3">
+
+                                        <img
+                                            src="/product_real_estate/static/src/img/dust.png"
+                                            style="width: 32px;height: 32px;"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Emissions:</span>
+                                        <br />
+                                        <span>
+                                            <t t-esc="product.emissions" />
+                                            kg CO <sub>2</sub> m <sup>2</sup> / year
+                                        </span>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <t t-if="product.stove">
+
+                                            <img
+                                                src="/product_real_estate/static/src/img/kitchen.png"
+                                                style="width: 32px;height: 32px;"
+                                            />
+                                            <br />
+                                            <span class="campo_p">Stove:</span>
+                                            <br />
+                                            <t t-esc="product.stove" />
+                                        </t>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <t t-if="product.thermo">
+
+                                            <img
+                                                src="/product_real_estate/static/src/img/temp.png"
+                                                style="width: 32px;height: 32px;"
+                                            />
+                                            <br />
+                                            <span class="campo_p">Thermo:</span>
+                                            <br />
+                                            <t t-esc="product.thermo" />
+                                        </t>
+                                    </div>
+                                </div>
+                                <br />
+
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="nav-fac"
+                                role="tabpanel"
+                                aria-labelledby="nav-fac-tab"
+                            >
+                                <br />
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <i
+                                            style="font-size: 34px;"
+                                            class="fa fa-shopping-bag"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Shopping Center:</span>
+                                        <t t-if="product.shopping_center == True">
+                                            <i class="fa fa-check" />
+                                            <br />
+                                        </t>
+                                        <t t-if="product.shopping_center != True">
+                                            <i class="fa fa-times" />
+                                            <br />
+                                        </t>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <i
+                                            style="font-size: 34px;"
+                                            class="fa fa-hospital-o"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Medical center:</span>
+                                        <t t-if="product.medical_center == True">
+                                            <i class="fa fa-check" />
+                                            <br />
+                                        </t>
+                                        <t t-if="product.medical_center != True">
+                                            <i class="fa fa-times" />
+                                            <br />
+                                        </t>
+                                    </div>
+                                    <div t-if="product.train_station" class="col-md-4">
+                                        <i
+                                            style="font-size: 34px;"
+                                            class="fa fa-train"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Train Station:
+                                            <span
+                                                class="campo_s"
+                                                t-esc="product.train_station"
+                                            />
+                                            m
+                                        </span>
+                                    </div>
+                                    <div t-if="product.tram_station" class="col-md-4">
+                                        <i
+                                            style="font-size: 34px;"
+                                            class="fa fa-train"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Tram Station:
+                                            <span
+                                                class="campo_s"
+                                                t-esc="product.tram_station"
+                                            />
+                                            m
+                                        </span>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div t-if="product.beach" class="col-md-4">
+                                        <i
+                                            style="font-size: 34px;"
+                                            class="fa fa-sun-o"
+                                        />
+                                        <br />
+                                        <span class="campo_p">Beach:
+                                            <span
+                                                class="campo_s"
+                                                t-esc="product.beach"
+                                            />
+                                            m
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <hr />
+                    <br />
+                </div>
+                <br />
+                <hr />
+                <div class="row">
+                    <br />
+                    <titulo2>Price information</titulo2>
+                </div>
+                <div class="row">
+                    <t t-if="product.list_price">
+                        <p>
+                            <span class="campo_p">Price:</span>
+                            <t t-if="product.sale_type=='sale'">
+                                <span
+                                    t-field="product.list_price"
+                                    t-options="{'widget': 'monetary', 'display_currency': product.currency_id}"
+                                />
+                            </t>
+                            <t t-if="product.sale_type == 'rent'">
+                                <span
+                                    t-field="product.list_price"
+                                    t-options="{'widget': 'monetary', 'display_currency': product.currency_id}"
+                                />
+                                / month
+                            </t>
+                        </p>
+                    </t>
+                </div>
+                <br />
+                <hr />
+                <t t-if="product.google_maps_url">
+                    <div class="row">
+                        <br />
+                        <titulo2>Zone</titulo2>
+                    </div>
+                    <br />
+                </t>
+                <div class="row">
+                    <t t-if="product.google_maps_url">
+                        <iframe
+                            t-attf-src="{{product.google_maps_url}}"
+                            width="500"
+                            height="400"
+                            frameborder="0"
+                            style="border:0; border-radius: 15px"
+                            alt="System • Image and Text"
+                            data-original-title=""
+                            title=""
+                            aria-describedby="tooltip734216"
+                        />
+                    </t>
+                </div>
+            </t>
+        </xpath>
+    </template>
+</odoo>

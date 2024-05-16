@@ -1,4 +1,3 @@
-
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/vertical-realestate&target_branch=16.0)
 [![Pre-commit Status](https://github.com/OCA/vertical-realestate/actions/workflows/pre-commit.yml/badge.svg?branch=16.0)](https://github.com/OCA/vertical-realestate/actions/workflows/pre-commit.yml?query=branch%3A16.0)
 [![Build Status](https://github.com/OCA/vertical-realestate/actions/workflows/test.yml/badge.svg?branch=16.0)](https://github.com/OCA/vertical-realestate/actions/workflows/test.yml?query=branch%3A16.0)
@@ -7,9 +6,9 @@
 
 <!-- /!\ do not modify above this line -->
 
-# vertical-realestate
+# None
 
-TODO: add repo description.
+None
 
 <!-- /!\ do not modify below this line -->
 
@@ -17,7 +16,12 @@ TODO: add repo description.
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+
+ addon                       | version    | maintainers | summary
+-----------------------------|------------|-------------|--------------------
+ [real_estate](real_estate/) | 16.0.1.0.1 |             | Manages realestate
 
 [//]: # (end addons)
 
