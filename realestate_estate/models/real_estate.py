@@ -43,6 +43,8 @@ class RealEstate(models.Model):
     description = fields.Text(
         translate=True,
     )
+    surface = fields.Float(default=0.0)
+    google_maps_url = fields.Text()
 
     def open_parent(self):
         return self.partner_id.open_parent()
