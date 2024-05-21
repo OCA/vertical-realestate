@@ -45,7 +45,10 @@
     </record>
     <record model="ir.ui.menu" id="real_estate_type_menu">
         <field name="name">Types</field>
-        <field name="parent_id" ref="realestate_estate.real_estate_configuration_menu" />
+        <field
+            name="parent_id"
+            ref="realestate_estate.real_estate_configuration_menu"
+        />
         <field name="action" ref="real_estate_type_act_window" />
         <field name="sequence" eval="16" />
     </record>

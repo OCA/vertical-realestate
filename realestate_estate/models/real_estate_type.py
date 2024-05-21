@@ -10,7 +10,10 @@ class RealEstateType(models.Model):
     _description = "Real Estate Type"
 
     name = fields.Char(required=True, translate=True)
-    code = fields.Char(required=True, index=True,)
+    code = fields.Char(
+        required=True,
+        index=True,
+    )
 
     _sql_constraints = [
         ("code_uniq", "unique (code)", "The code has to be unique!"),
