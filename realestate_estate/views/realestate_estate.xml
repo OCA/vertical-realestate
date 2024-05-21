@@ -55,6 +55,7 @@
                                 <group name="general_first">
                                     <field name="type_id" />
                                     <field name="ref" />
+                                    <field name="type" string="Type" />
                                 </group>
                                 <group name="general_second">
                                     <field name="short_description" />
@@ -98,7 +99,7 @@
                         <page name="page_location" string="Location">
                             <group>
                                 <group name="group_location_left">
-                                    <field name="type" />
+                                    <field name="type" invisible="1" />
                                     <label for="street" string="Address" />
                                     <div class="o_address_format">
                                         <div class="oe_edit_only">
