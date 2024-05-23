@@ -11,7 +11,7 @@
     />
     <record model="ir.ui.menu" id="real_estate_configuration_menu">
         <field name="name">Configuration</field>
-        <field name="parent_id" ref="real_estate.menu_real_estate"/>
-        <field name="sequence" eval="100"/>
+        <field name="parent_id" ref="real_estate.menu_real_estate" />
+        <field name="sequence" eval="100" />
     </record>
 </odoo>

@@ -7,8 +7,8 @@
         <field name="model">real.estate</field>
         <field name="arch" type="xml">
             <tree>
-                <field name="name"/>
-                <field name="type_id"/>
+                <field name="name" />
+                <field name="type_id" />
             </tree>
         </field>
     </record>
@@ -21,8 +21,8 @@
 
                 </header>
                 <sheet>
-                    <div class="oe_button_box" name="buttons"/>
-                    <field name="active" invisible="1"/>
+                    <div class="oe_button_box" name="buttons" />
+                    <field name="active" invisible="1" />
                     <widget
                         name="web_ribbon"
                         title="Archived"
@@ -36,22 +36,22 @@
                         options='{"preview_image": "image_128"}'
                     />
                     <div class="oe_title" name="title">
-                        <label for="name" string="Shipping Method"/>
+                        <label for="name" string="Shipping Method" />
                         <h1>
-                            <field name="name" placeholder="e.g. 0001 Apartment"/>
+                            <field name="name" placeholder="e.g. 0001 Apartment" />
                         </h1>
                     </div>
                     <notebook>
                         <page name="page_general_info" string="General Information">
                             <group>
                                 <group name="general_first">
-                                    <field name="type_id"/>
-                                    <field name="ref"/>
+                                    <field name="type_id" />
+                                    <field name="ref" />
                                 </group>
                                 <group name="general_second">
-                                    <field name="company_id" readonly="1"/>
-                                    <field name="short_description"/>
-                                    <field name="description"/>
+                                    <field name="company_id" readonly="1" />
+                                    <field name="short_description" />
+                                    <field name="description" />
                                 </group>
                             </group>
                             <group name="group_contact_info">
@@ -61,22 +61,19 @@
                                     name="group_contact_right"
                                     string="Contact Information"
                                 >
-                                    <field
-                                        name="owner_ids"
-                                        widget="many2many_tags"
-                                    />
+                                    <field name="owner_ids" widget="many2many_tags" />
 
                                 </group>
                             </group>
                             <group name="main_data">
-                                <group name="left"/>
-                                <group name="right"/>
+                                <group name="left" />
+                                <group name="right" />
                             </group>
                         </page>
                         <page name="page_location" string="Location">
                             <group>
                                 <group name="group_location_left">
-                                    <label for="street" string="Address"/>
+                                    <label for="street" string="Address" />
                                     <div class="o_address_format">
                                         <div class="oe_edit_only">
 
@@ -85,7 +82,6 @@
                                             name="street"
                                             placeholder="Street..."
                                             class="o_address_street"
-
                                         />
                                         <field
                                             name="street2"
@@ -96,7 +92,6 @@
                                             name="city"
                                             placeholder="City"
                                             class="o_address_city"
-
                                         />
                                         <field
                                             name="state_id"
@@ -119,20 +114,20 @@
                                         />
                                     </div>
                                 </group>
-                                <group name="group_location_right"/>
+                                <group name="group_location_right" />
                             </group>
                         </page>
                         <page name="page_contacts" string="Contacts &amp; Addresses">
 
                         </page>
                         <page name='page_internal_notes' string="ID &amp; Notes">
-                            <field name="comment" placeholder="Internal Note..."/>
+                            <field name="comment" placeholder="Internal Note..." />
                         </page>
                     </notebook>
                 </sheet>
                 <div class="oe_chatter">
-                    <field name="message_follower_ids" widget="mail_followers"/>
-                    <field name="message_ids" widget="mail_thread"/>
+                    <field name="message_follower_ids" widget="mail_followers" />
+                    <field name="message_ids" widget="mail_thread" />
                 </div>
             </form>
         </field>
@@ -143,14 +138,14 @@
         <field name="type">kanban</field>
         <field name="arch" type="xml">
             <kanban class="o_res_partner_kanban" string="Estates">
-                <field name="street"/>
-                <field name="street2"/>
-                <field name="zip"/>
-                <field name="city"/>
-                <field name="country_id"/>
-                <field name="state_id"/>
-                <field name="image"/>
-                <field name="type_id"/>
+                <field name="street" />
+                <field name="street2" />
+                <field name="zip" />
+                <field name="city" />
+                <field name="country_id" />
+                <field name="state_id" />
+                <field name="image" />
+                <field name="type_id" />
                 <templates>
                     <t t-name="kanban-box">
                         <div
@@ -164,20 +159,20 @@
                             />
                             <div class="oe_kanban_details">
                                 <strong class="oe_partner_heading">
-                                    <field name="name"/>
+                                    <field name="name" />
                                 </strong>
                                 <ul name="entity_details">
                                     <li
                                         t-if="record.zip.raw_value"
                                         class="o_text_overflow"
                                     >
-                                        <field name="zip"/>
+                                        <field name="zip" />
                                     </li>
                                     <li
                                         t-if="record.city.raw_value"
                                         class="o_text_overflow"
                                     >
-                                        <field name="city"/>
+                                        <field name="city" />
                                     </li>
                                 </ul>
                             </div>
@@ -192,7 +187,7 @@
         <field name="model">real.estate</field>
         <field name="arch" type="xml">
             <search string="RealEstate Entities">
-                <field name="name"/>
+                <field name="name" />
                 <group expand="0" string="Group By...">
                     <filter
                         string="Type"
@@ -211,7 +206,7 @@
         <field name="view_mode">tree,form</field>
         <field name="domain">[]</field>
         <field name="context">{}</field>
-        <field name="search_view_id" ref="real_estate_search_view"/>
+        <field name="search_view_id" ref="real_estate_search_view" />
         <field
             name="view_ids"
             eval="[(5, 0, 0),
@@ -224,9 +219,9 @@
 
     <record model="ir.ui.menu" id="real_estate_menu">
         <field name="name">Estates</field>
-        <field name="parent_id" ref="real_estate.menu_real_estate"/>
-        <field name="action" ref="real_estate_act_window"/>
-        <field name="sequence" eval="10"/>
+        <field name="parent_id" ref="real_estate.menu_real_estate" />
+        <field name="action" ref="real_estate_act_window" />
+        <field name="sequence" eval="10" />
     </record>
 
 </odoo>
