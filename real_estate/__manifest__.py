@@ -8,7 +8,7 @@
     "version": "16.0.1.0.0",
     "license": "AGPL-3",
     "development_status": "Alpha",
-    "author": "ACSONE SA/NV,Odoo Community Association (OCA) Binhex Solutions",
+    "author": "Binhex, " "Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/vertical-realestate",
     "depends": ["base", "mail", "contacts"],
     "data": [

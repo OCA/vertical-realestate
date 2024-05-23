@@ -18,14 +18,12 @@ class RealEstate(models.Model):
     )
     active = fields.Boolean(default=True)
     image = fields.Image(
-        string="Image",
         max_width=256,
         max_height=256,
         help="This field holds the image used for the real estate",
     )
     ref = fields.Char(
         default=lambda self: self.env["ir.sequence"].next_by_code("real.estate"),
-        string="Reference",
         index=True,
         copy=False,
         readonly=True,
@@ -46,22 +44,21 @@ class RealEstate(models.Model):
     city = fields.Char()
     state_id = fields.Many2one(
         "res.country.state",
-        string="State",
         ondelete="restrict",
         domain="[('country_id', '=?', country_id)]",
     )
-    country_id = fields.Many2one("res.country", string="Country", ondelete="restrict")
-    country_code = fields.Char(related="country_id.code", string="Country Code")
-    real_estate_latitude = fields.Float(string="Geo Latitude", digits=(10, 7))
-    real_estate_longitude = fields.Float(string="Geo Longitude", digits=(10, 7))
-    comment = fields.Html(string="Notes")
+    country_id = fields.Many2one("res.country", ondelete="restrict")
+    country_code = fields.Char(
+        related="country_id.code",
+    )
+    real_estate_latitude = fields.Float(digits=(10, 7))
+    real_estate_longitude = fields.Float(digits=(10, 7))
+    comment = fields.Html()
     owner_ids = fields.Many2many(
         "res.partner",
-        string="Owners",
     )
     company_id = fields.Many2one(
         comodel_name="res.company",
-        string="Company",
         default=lambda self: self.env.company.id,
         help="The default company for this user.",
     )
