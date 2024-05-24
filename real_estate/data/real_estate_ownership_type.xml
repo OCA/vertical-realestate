@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <record id="corporeal_ownership" model="real.estate.ownership.type">
+        <field name="name">Corporeal ownership</field>
+    </record>
+    <record id="incorporeal_ownership" model="real.estate.ownership.type">
+        <field name="name">Incorporeal ownership</field>
+    </record>
+    <record id="sole_ownership" model="real.estate.ownership.type">
+        <field name="name">Sole ownership</field>
+    </record>
+    <record id="co_ownership" model="real.estate.ownership.type">
+        <field name="name">Co-ownership</field>
+    </record>
+    <record id="legal_ownership" model="real.estate.ownership.type">
+        <field name="name">Legal ownership</field>
+    </record>
+    <record id="equitable_ownership" model="real.estate.ownership.type">
+        <field name="name">Equitable ownership</field>
+    </record>
+    <record id="trust_and_beneficial_ownership" model="real.estate.ownership.type">
+        <field name="name">Trust and beneficial ownership</field>
+    </record>
+    <record id="vested_ownership" model="real.estate.ownership.type">
+        <field name="name">Vested ownership</field>
+    </record>
+    <record id="contingent_ownership" model="real.estate.ownership.type">
+        <field name="name">Contingent ownership</field>
+    </record>
+    <record id="absolute_ownership" model="real.estate.ownership.type">
+        <field name="name">Absolute ownership</field>
+    </record>
+    <record id="limited_ownership" model="real.estate.ownership.type">
+        <field name="name">Limited ownership</field>
+    </record>
+
+</odoo>

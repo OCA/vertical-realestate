@@ -1,0 +1,12 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_real_estate_reader,real.estate,real_estate.model_real_estate,real_estate.group_realestate_reader,1,0,0,0
+access_real_estate_employee,real.estate,real_estate.model_real_estate,real_estate.group_realestate_employee,1,1,1,0
+access_real_estate_manager,real.estate,real_estate.model_real_estate,real_estate.group_realestate_manager,1,1,1,1
+access_real_estate_type_reader,real.estate.type,real_estate.model_real_estate_type,real_estate.group_realestate_reader,1,0,0,0
+access_real_estate_type_manager,real.estate.type,real_estate.model_real_estate_type,real_estate.group_realestate_manager,1,1,1,1
+access_real_estate_ownership_reader,real.estate,real_estate.model_real_estate_ownership,real_estate.group_realestate_reader,1,0,0,0
+access_real_estate_ownership_employee,real.estate,real_estate.model_real_estate_ownership,real_estate.group_realestate_employee,1,1,1,0
+access_real_estate_ownership_manager,real.estate,real_estate.model_real_estate_ownership,real_estate.group_realestate_manager,1,1,1,1
+access_real_estate_ownership_type_reader,real.estate,real_estate.model_real_estate_ownership_type,real_estate.group_realestate_reader,1,0,0,0
+access_real_estate_ownership_type_employee,real.estate,real_estate.model_real_estate_ownership_type,real_estate.group_realestate_employee,1,1,1,0
+access_real_estate_ownership_type_manager,real.estate,real_estate.model_real_estate_ownership_type,real_estate.group_realestate_manager,1,1,1,1

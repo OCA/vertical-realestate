@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record model="ir.ui.view" id="real_estate_ownership_type_search_view">
+        <field name="name">real.estate.ownership.type.search (in realestate_estate)
+        </field>
+        <field name="model">real.estate.ownership.type</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" />
+            </search>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="real_estate_ownership_type_tree_view">
+        <field
+            name="name"
+        >real.estate.ownership.type.tree (in realestate_estate)</field>
+        <field name="model">real.estate.ownership.type</field>
+        <field name="arch" type="xml">
+            <tree editable="top">
+                <field name="name" />
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="real_estate_ownership_type_act_window">
+        <field name="name">Real Estate Type</field>
+        <field name="res_model">real.estate.ownership.type</field>
+        <field name="view_mode">tree</field>
+        <field name="domain">[]</field>
+        <field name="context">{}</field>
+    </record>
+    <record model="ir.ui.menu" id="real_estate_ownership_type_menu">
+        <field name="name">Ownership Types</field>
+        <field name="parent_id" ref="real_estate.real_estate_configuration_menu" />
+        <field name="action" ref="real_estate_ownership_type_act_window" />
+        <field name="sequence" eval="17" />
+    </record>
+</odoo>
