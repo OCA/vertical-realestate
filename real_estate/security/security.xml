@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2020 ACSONE SA/NV
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record model="ir.module.category" id="module_category_realestate">
+        <field name="name">Real Estate</field>
+        <field name="visible" eval="1" />
+    </record>
+    <record id="group_real_estate_user" model="res.groups">
+        <field name="name">Real Estate User</field>
+        <field name="category_id" ref="real_estate.module_category_realestate" />
+        <field name="comment">The user will be able to use realestate.</field>
+    </record>
+    <record id="group_real_estate_manager" model="res.groups">
+        <field name="name">Real Estate Manager</field>
+        <field name="category_id" ref="real_estate.module_category_realestate" />
+        <field
+            name="implied_ids"
+            eval="[(4, ref('real_estate.group_real_estate_user'))]"
+        />
+        <field name="comment">The user will be able to use and add config.</field>
+        <field name="users" eval="[(4, ref('base.user_root'))]" />
+    </record>
+</odoo>

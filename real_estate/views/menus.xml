@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2020 ACSONE SA/NV
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <menuitem
+        name="Real Estate"
+        id="menu_real_estate"
+        groups="real_estate.group_real_estate_user"
+        web_icon="real_estate,static/description/icon.png"
+        sequence="40"
+    />
+    <record model="ir.ui.menu" id="real_estate_configuration_menu">
+        <field name="name">Configuration</field>
+        <field name="parent_id" ref="real_estate.menu_real_estate" />
+        <field name="sequence" eval="100" />
+    </record>
+</odoo>
