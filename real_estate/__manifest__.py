@@ -6,7 +6,7 @@
     "name": "Real Estate",
     "summary": """
         Adds the estate management to realestate""",
-    "version": "16.0.1.0.0",
+    "version": "17.0.1.0.0",
     "license": "AGPL-3",
     "development_status": "Alpha",
     "author": "Binhex, ACSONE SA/NV, Odoo Community Association (OCA)",

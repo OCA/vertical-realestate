@@ -6,7 +6,6 @@ from odoo import fields, models
 
 
 class RealEstateOwnershipType(models.Model):
-
     _name = "real.estate.ownership.type"
     _description = "Real Estate Ownership Type"
 
