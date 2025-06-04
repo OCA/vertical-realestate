@@ -21,7 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[realestate](realestate/) | 13.0.1.0.2 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Manages realestate
+[realestate](realestate/) | 13.0.1.0.2 | <a href='https://github.com/rousseldenis'><img src='https://github.com/rousseldenis.png' width='32' height='32' style='border-radius:50%;' alt='rousseldenis'/></a> | Manages realestate
 [realestate_estate](realestate_estate/) | 13.0.1.0.1 |  | Adds the estate management to realestate
 
 [//]: # (end addons)
