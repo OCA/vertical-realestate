@@ -1,0 +1,185 @@
+{
+  "status": {
+    "version": "1.0.0",
+    "code": 0,
+    "msg": "SuccessWithResult",
+    "total": 1,
+    "page": 1,
+    "pagesize": 10,
+    "responseDateTime": "2026-05-10T15:09:20.950Z",
+    "transactionID": "773928904b14f2d0e4881e5e18f990f2",
+    "attomId": 191384780
+  },
+  "echoed_fields": {
+    "jobID": "",
+    "loanNumber": "",
+    "preparedBy": "",
+    "resellerID": "",
+    "preparedFor": ""
+  },
+  "property": [
+    {
+      "identifier": {
+        "Id": 191384780,
+        "fips": "21111",
+        "apn": "21383500110000",
+        "attomId": 191384780
+      },
+      "lot": {
+        "lotNum": "1111",
+        "lotSize1": 0.2078972,
+        "lotSize2": 9056.0,
+        "zoningType": "Residential",
+        "siteZoningIdent": "R4-RESIDENTIAL SINGLE FAM",
+        "poolType": "NO POOL"
+      },
+      "area": {
+        "blockNum": "15",
+        "locType": "VIEW - NONE",
+        "countrySecSubd": "Jefferson",
+        "countyUse1": "510  ",
+        "munCode": "JE",
+        "munName": "JEFFERSON",
+        "subdName": "WOODLANDS CREEK",
+        "taxCodeArea": "20",
+        "censusTractIdent": "10314",
+        "censusBlockGroup": "1"
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "KY",
+        "line1": "13204 CAIN LN",
+        "line2": "LOUISVILLE, KY 40245",
+        "locality": "LOUISVILLE",
+        "matchCode": "ExaStr",
+        "oneLine": "13204 CAIN LN, LOUISVILLE, KY 40245",
+        "postal1": "40245",
+        "postal2": "2139",
+        "postal3": "R072",
+        "stateFips": "21",
+        "situsHouseNumber": "13204",
+        "situsStreetName": "CAIN",
+        "situsAddressSuffix": "LN"
+      },
+      "location": {
+        "accuracy": "Rooftop",
+        "latitude": "38.293076",
+        "longitude": "-85.512988",
+        "distance": 0.0,
+        "geoid": "CO21111, CS2192573, DB2102990, ND0000042623, ND0004706129, PL2148006, RS0001285074, SB0000089144, SB0000089189, SB0000089218, SB0000140525, SB0000140526, SB0000140527, SB0000140528, SB0000142268, SB0000144055, SB0000145874, SB0000145875, SB0000145876, SB0000147615, SB0000147616, SB0000147617, SB0000149394, SB0000149395, SB0000149396, SB0000153047, ZI40245",
+        "geoIdV4": {
+          "CO": "5c19c1717772c967b6fa3db7f6685d20",
+          "CS": "b45434056289a99c9ea82d570451f75e",
+          "DB": "76b15a37398296a3578c69a9752b3e48",
+          "N4": "ba0abb048bf42bf31cdf163840af1eed",
+          "PL": "482d360cd50cba3acc74ee26be59285c",
+          "SB": "a2757ff74cda2628a06447f8b12b1e15,906dab1a0951e25a293e792f1e337f00,59af74a369da9a3b0fccb9c1ab311990",
+          "ZI": "dc3060404be4fc248a9f2722d5b50006"
+        }
+      },
+      "summary": {
+        "absenteeInd": "OWNER OCCUPIED",
+        "propClass": "Single Family Residence / Townhouse",
+        "propSubType": "Residential",
+        "propType": "SFR",
+        "propertyType": "SINGLE FAMILY RESIDENCE",
+        "yearBuilt": 2008,
+        "propLandUse": "SFR",
+        "propIndicator": 10,
+        "legal1": "LOT 11 WOODLANDS CREEK SUBDIVISION, PB.51 PG.78-79; 0.2079 AC +/-",
+        "quitClaimFlag": "False",
+        "REOflag": "False"
+      },
+      "utilities": {},
+      "sale": {
+        "sequenceSaleHistory": 1,
+        "sellerName": "ASHISH SHARMA,NEHA SHARMA",
+        "saleSearchDate": "2022-08-26",
+        "saleTransDate": "2022-08-23",
+        "transactionIdent": "996394157",
+        "amount": {
+          "saleAmt": 450000.0,
+          "saleCode": "SALE PRICE (FULL) Full sales price as per documents",
+          "saleRecDate": "2022-08-26",
+          "saleDisclosureType": 0,
+          "saleDocNum": "0000198518",
+          "saleTransType": "Resale"
+        },
+        "calculation": {}
+      },
+      "building": {
+        "size": {
+          "sizeInd": "LIVING SQFT"
+        },
+        "rooms": {},
+        "interior": {},
+        "construction": {},
+        "parking": {},
+        "summary": {
+          "view": "VIEW - NONE",
+          "viewCode": "000"
+        }
+      },
+      "assessment": {
+        "appraised": {},
+        "assessed": {
+          "assdImprValue": 385000.0,
+          "assdLandValue": 65000.0,
+          "assdTtlValue": 450000.0
+        },
+        "market": {
+          "mktImprValue": 385000.0,
+          "mktLandValue": 65000.0,
+          "mktTtlValue": 450000.0
+        },
+        "tax": {
+          "taxAmt": 5022.0,
+          "taxYear": 2025.0,
+          "exemption": {},
+          "exemptiontype": {}
+        },
+        "improvementPercent": 85,
+        "owner": {
+          "corporateIndicator": "N",
+          "type": "INDIVIDUAL",
+          "description": "INDIVIDUAL",
+          "owner1": {
+            "fullName": "AKRAM NAKAD",
+            "lastName": "NAKAD",
+            "firstNameAndMi": "AKRAM"
+          },
+          "owner2": {},
+          "owner3": {},
+          "owner4": {},
+          "absenteeOwnerStatus": "O",
+          "mailingAddressOneLine": "13204 CAIN LN, LOUISVILLE, KY 40245-2139"
+        },
+        "mortgage": {
+          "FirstConcurrent": {
+            "trustDeedDocumentNumber": "0000198519",
+            "ident": "2022198519",
+            "amount": 360000.0,
+            "lenderLastName": "NORTHPOINTE BANK",
+            "companyCode": "20989",
+            "date": "2022-08-26",
+            "loanTypeCode": "CNV",
+            "deedType": "DE",
+            "term": "361",
+            "dueDate": "2052-09-01"
+          },
+          "SecondConcurrent": {
+            "amount": 0.0,
+            "companyCode": "-1"
+          },
+          "title": {
+            "companyName": "LIMESTONE TITLE & ESCROW LLC"
+          }
+        }
+      },
+      "vintage": {
+        "lastModified": "2026-03-10",
+        "pubDate": "2026-03-10"
+      }
+    }
+  ]
+}
